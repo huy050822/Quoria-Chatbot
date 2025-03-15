@@ -71,12 +71,12 @@ if prompt:
         }
     )
     
-    with st.chat_message("user", avatar=r""):
+    with st.chat_message("user", avatar=r"https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png"):
         st.markdown(prompt)
 
     responses = get_response(prompt)
     
-    with st.chat_message("assistant", avatar=r"C:\Users\DELL\Downloads\chatbot.png"):
+    with st.chat_message("assistant", avatar=r"https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/chatbot.png"):
 
      
         holder = st.empty()
