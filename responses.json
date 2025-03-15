@@ -1,0 +1,61 @@
+{
+    "hi|hello|hey": "Hello! I am Quoria. If you do not mind, let me help you my diamond !" ,
+    "bonjour|bonjour quoria": "Bonjour ! Je suis Quoria. Si vous le permettez, je serais ravi de vous aider !",
+    "hola|hola quoria": "¡Hola! Soy Quoria. Si no te importa, ¡déjame ayudarte!",
+    "xin chào|chào|xin chào Quoria|Xins chào Quoria|Xín chao quoria|xin chao|xinchao|": "Xin chào, tui là Quoria, tui có thể giúp gì cho bạn ?",
+    "nihao|nihao quoria|你好 quoria": "你好, 我叫 Quoria, 如果可以的话，让我来帮助你吧！",
+    "konichiwa|konichiwa quoria|こんにちは quoria": "こんにちは！私は Quoria です。よかったら、お手伝いさせてくださいね！",
+    "f1|tiếng việt|Vietnamese|Vietnam language": "Chào ngài, tui là Quoria cũng là người Việt Nam đây! Rất vui được gặp ngài. Ngài cần tui giúp gì ?",
+    "f2|tiếng anh| English| England language| American | Usa| American Language| Usa Language| British| Australia": "Hello! You are from an English-speaking country? That is awesome! I love visiting London and exploring its rich history.",
+    "f3|tiếng pháp| french| France language": "Bonjour ! Vous venez de France ? J'adore Paris et la magnifique Tour Eiffel !",
+    "f4|tiếng Tây Ban Nha| Spanish| Spain Language": "¡Hola! Soy Quoria. Si no te importa, ¡déjame ayudarte!",
+
+    "giá xe cũ|price of old bike": "Giá xe máy cũ ở Đà Nẵng dao động từ 50-60 triệu VND. Giá vậy là rẻ lắm rồi đó đỗ nghèo khỉ",
+    "exciter": "Hmm Exciter là mẫu xe mạnh mẽ và thể thao, cho tui thêm thông tin đi nhưng đừng mua để trộm chó nhá, Quoria buồn lắm :(",
+    "honda": "Honda là biết uy tín rồi, không phải trộm chó, cho tui thêm thông tin đi",
+    "wave": "Wave là dòng xe bền bỉ! Bạn muốn tìm bản nào?",
+    "winner": "Winner mạnh mẽ đấy! Bạn đang nhắm bản V1 hay V2?",
+    "xe tay ga": "Xe tay ga tiện lợi nhỉ! Bạn thích Honda hay Yamaha?",
+    "mua xe rẻ": "Tôi có thể tìm xe giá rẻ cho bạn. Ngân sách của bạn là bao nhiêu?",
+    "đăng ký xe": "Đăng ký xe mới hay sang tên xe cũ? Tôi sẽ hướng dẫn bạn.",
+    
+    "bảo hiểm xe": "Bảo hiểm xe máy giá khoảng 66.000 VND/năm. Bạn muốn mua loại nào?",
+    "bảo dưỡng xe": "Bảo dưỡng xe định kỳ rất quan trọng! Bạn cần kiểm tra phần nào?",
+    "thay nhớt": "Thay nhớt định kỳ giúp xe bền hơn. Xe bạn dùng nhớt gì?",
+    "phanh xe": "Phanh là bộ phận an toàn quan trọng! Bạn muốn sửa hay thay mới?",
+    "vỏ xe": "Vỏ xe hết hạn nên thay ngay! Bạn thích vỏ lốp không săm hay có săm?",
+    
+    "xe số": "Xe số tiết kiệm xăng! Bạn muốn tìm xe hãng nào?",
+    "xe phân khối lớn": "Xe phân khối lớn rất mạnh mẽ! Bạn nhắm tới dung tích bao nhiêu cc?",
+    "sh mode": "SH Mode sang trọng nhỉ! Bạn đang xem bản 2023 hay đời cũ?",
+    "vision": "Vision nhỏ gọn và tiết kiệm xăng! Bạn muốn tìm màu gì?",
+    "air blade": "Air Blade thể thao và mạnh mẽ! Bạn thích bản 125cc hay 160cc?",
+    "125cc": "Xe 125cc tiết kiệm xăng!",
+    "Cho tôi tất cả thông tin về xe airblade 125cc cũ đi": "Để tôi",
+    
+    "đổi bằng lái": "Bạn muốn đổi bằng lái xe A1, A2 hay loại nào khác? Tôi sẽ hướng dẫn!",
+    "thi bằng lái xe": "Bạn muốn thi bằng A1 hay A2? Tôi sẽ chỉ bạn mẹo thi đậu!",
+    "kiểm tra phạt nguội": "Kiểm tra phạt nguội dễ lắm! Bạn cho tôi biển số xe nhé?",
+    "giữ xe lâu ngày": "Để xe lâu không đi thì nên kiểm tra bình ắc quy và thay nhớt trước khi chạy lại.",
+    
+    "bơm lốp xe": "Bơm lốp đúng áp suất sẽ giúp xe chạy ổn định! Bạn muốn biết áp suất chuẩn không?",
+    "chỉnh garanti": "Garanti không ổn sẽ làm xe dễ chết máy! Bạn muốn tôi chỉ cách chỉnh không?",
+    "vệ sinh bugi": "Bugi bẩn dễ làm xe khó nổ! Tôi sẽ hướng dẫn bạn vệ sinh nhanh chóng.",
+    "sơn xe": "Muốn làm mới xe bằng sơn ư? Bạn thích màu nào? Tôi gợi ý cho!",
+    
+    "mua xe mới": "Mua xe mới thì tuyệt nhỉ! Ngân sách và nhu cầu của bạn thế nào?",
+    "xe tay côn": "Xe tay côn mạnh mẽ và cá tính! Bạn thích dòng nào?",
+    "đèn xe": "Đèn xe yếu có thể do bóng hoặc hệ thống điện. Bạn muốn kiểm tra phần nào?",
+    "khoá smartkey": "Smartkey tiện lợi và an toàn! Bạn muốn lắp mới hay sửa chữa?",
+    
+    "mua xe trả góp": "Trả góp giúp bạn dễ sở hữu xe hơn! Bạn muốn biết lãi suất và kỳ hạn không?",
+    "giấy tờ xe": "Giấy tờ xe gồm đăng ký, bảo hiểm và bằng lái. Bạn muốn biết thêm gì nữa không?",
+    "thay kính chiếu hậu": "Kính chiếu hậu rất quan trọng khi lái xe! Bạn muốn loại tiêu chuẩn hay thể thao?",
+    "đèn xi nhan": "Đèn xi nhan hỏng dễ gây nguy hiểm! Tôi sẽ chỉ bạn cách kiểm tra và thay mới.",
+    
+    "mua xe cũ ở đâu": "Có nhiều nơi mua xe cũ uy tín! Bạn ở tỉnh nào để tôi tìm giúp nhé?",
+    "xem số khung số máy": "Số khung số máy giúp bạn kiểm tra nguồn gốc xe. Tôi sẽ chỉ bạn cách xem!",
+    "thay lọc gió": "Lọc gió sạch giúp xe chạy êm hơn! Bạn muốn tôi hướng dẫn thay lọc gió không?",
+    "đi phượt": "Đi phượt bằng xe máy thú vị lắm! Bạn đã chuẩn bị đồ nghề và kiểm tra xe chưa?"
+    
+}
