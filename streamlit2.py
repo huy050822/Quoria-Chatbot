@@ -77,7 +77,7 @@ if prompt:
     responses = get_response(prompt)
     
     with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/chatbot.png"):
-        if prompt.lower() in ["giá xe máy cũ", "giá xe cũ"]:
+        if prompt.lower() in ["giá xe máy cũ", "giá xe cũ", "gia xe may cu",  "giã xe may cụ", "da xe may cu","giaxemaycu","cho tôi giá xe máy cũ"]:
             with st.form("BIKE DETAIL FORM"):
                 st.write("Vui lòng điền thông tin xe để tôi giúp bạn định giá:")
                 car_name = st.text_input("Tên xe (VD: Yamaha):")
@@ -122,7 +122,7 @@ if prompt:
                 else:
                     response = "¡Por favor, completa todos los detalles para que pueda ayudarte!"
 
-        elif prompt.lower() == "prix de la moto d'occasion":
+        elif prompt.lower() in ["prix de la moto d'occasion","combien coûte une moto d'occasion"]:
             with st.form("BIKE DETAIL FORM"):
                 st.write("Veuillez remplir les détails de la moto pour m'aider à estimer le prix :")
                 bike_name = st.text_input("Nom de la moto (ex : Peugeot, Yamaha) :")
