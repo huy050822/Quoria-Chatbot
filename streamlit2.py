@@ -36,7 +36,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<div class='chat-box' id='chat-box'>Hi, Tui giúp được gì cho bạn ?</div>", unsafe_allow_html=True)
+st.markdown("<div class='chat-box' id='chat-box'>Hi, How can i help you ?</div>", unsafe_allow_html=True)
 
 prompt = st.chat_input("Please type a message...")
 
