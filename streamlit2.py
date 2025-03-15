@@ -5,7 +5,7 @@ import re
 #streamlit run streamlit2.py
 
 
-st.set_page_config(page_title="QUORIA 0.4.0", page_icon=r"C:\Users\DELL\Downloads\11zon_cropped.png", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="QUORIA 0.4.0", page_icon= "https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/logo_matcha_ready.png", layout="centered", initial_sidebar_state="collapsed")
 
 st.markdown(  
     """
@@ -71,7 +71,7 @@ if prompt:
         }
     )
     
-    with st.chat_message("user", avatar=r"C:\Users\DELL\Downloads\avatar.png"):
+    with st.chat_message("user", avatar=r""):
         st.markdown(prompt)
 
     responses = get_response(prompt)
