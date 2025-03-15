@@ -5,7 +5,7 @@ import re
 #streamlit run streamlit2.py
 
 
-st.set_page_config(page_title="QUORIA 0.4.0", page_icon=r"C:\Users\DELL\Downloads\11zon_cropped.png", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="QUORIA 0.4.0", page_icon="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/11zon_cropped.png", layout="centered", initial_sidebar_state="collapsed")
 
 st.markdown(  
     """
@@ -71,12 +71,12 @@ if prompt:
         }
     )
     
-    with st.chat_message("user", avatar=r"C:\Users\DELL\Downloads\avatar.png"):
+    with st.chat_message("user", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png"):
         st.markdown(prompt)
 
     responses = get_response(prompt)
     
-    with st.chat_message("assistant", avatar=r"C:\Users\DELL\Downloads\chatbot.png"):
+    with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/chatbot.png"):
         if prompt.lower() in ["giá xe máy cũ", "giá xe cũ"]:
             with st.form("BIKE DETAIL FORM"):
                 st.write("Vui lòng điền thông tin xe để tôi giúp bạn định giá:")
