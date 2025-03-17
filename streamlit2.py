@@ -5,7 +5,7 @@ import re
 #streamlit run streamlit2.py
 
 
-st.set_page_config(page_title="QUORIA 0.4.0", page_icon="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/11zon_cropped.png", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="QUORIA 0.4.0", page_icon="https://github.com/huy050822/Quoria-Chatbot/blob/main/11zon_cropped.png?raw=true", layout="centered", initial_sidebar_state="collapsed")
 
 st.markdown(  
     """
