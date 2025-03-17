@@ -1,60 +1,111 @@
 {
-    "hi|hello|hey": "Hello! I am Quoria. If you do not mind, let me help you my diamond !" ,
-    "bonjour|bonjour quoria": "Bonjour ! Je suis Quoria. Si vous le permettez, je serais ravi de vous aider !",
-    "hola|hola quoria": "¡Hola! Soy Quoria. Si no te importa, ¡déjame ayudarte!",
-    "xin chào|chào|xin chào Quoria|Xins chào Quoria|Xín chao quoria|xin chao|xinchao|": "Xin chào, tui là Quoria, tui có thể giúp gì cho bạn ?",
-    "nihao|nihao quoria|你好 quoria": "你好, 我叫 Quoria, 如果可以的话，让我来帮助你吧！",
-    "konichiwa|konichiwa quoria|こんにちは quoria": "こんにちは！私は Quoria です。よかったら、お手伝いさせてくださいね！",
-    "f1|tiếng việt|Vietnamese|Vietnam language": "Chào ngài, tui là Quoria cũng là người Việt Nam đây! Rất vui được gặp ngài. Ngài cần tui giúp gì ?",
-    "f2|tiếng anh|English|England language| American | Usa| American Language| Usa Language| British| Australia": "Hello! You are from an English-speaking country? That is awesome! I love visiting London and exploring its rich history.",
-    "f3|tiếng pháp|french|France language": "Bonjour ! Vous venez de France ? J'adore Paris et la magnifique Tour Eiffel !",
-    "f4|tiếng Tây Ban Nha|Spanish|Spain Language": "¡Hola! Soy Quoria. Si no te importa, ¡déjame ayudarte!",
+    "xin chào|chào|xin chào Quoria|xins chào quoria|xín chao quoria|xin chao|xinchao|": "Ồ! Một lữ khách đến từ cõi xa xôi! Hẳn là cậu đang tìm kiếm thứ gì đó tại vương quốc này? Ta - Quoria toàn tri sẽ thỏa mãn mọi thắc mắc của cậu!",
+    "hi|hello|hey": "Ah, a fresh soul in these lands! Tell me, traveler, what brings you to this realm? I am a humble guide, a keeper of knowledge and whispers. Ask, and I shall guide you!",
+    "bonjour|bonjour quoria": "Ah, une âme fraîche en ces terres! Dites-moi, voyageur, qu'est-ce qui vous amène en ce royaume? Je suis un humble guide, gardien du savoir et des murmures. Demandez, et je vous guiderai!",
+    "hola|hola quoria": "Ah, un alma nueva en estas tierras! Dime, viajero, ¿qué te trae a este reino? Soy un humilde guía, guardián del conocimiento y los susurros. Pregunta, y te guiaré.",
+    "nihao|nihao quoria|你好 quoria": "啊，这片土地上的新灵魂！旅人啊，是什么将你带到了这个世界？我是一个谦卑的向导，知识与低语的守护者。请问吧，我会指引你！",
+    "konichiwa|konichiwa quoria|こんにちは quoria": "ああ、この地に新しき魂よ！旅人よ、何があなたをこの世界へと導いたのか？私は謙虚なる導き手、知識と囁きの守護者なり。尋ねよ、さらば導かん！",
+    "f1|tiếng việt|vietnamese|vietnam language": "Hahaha Quoria ta cũng là người đến từ Việt Nam đấy! Hỡi lữ khách, có điều gì khiến cậu bận tâm chăng? Hãy nói, ta sẽ giúp sức!",
+    "f2|tiếng anh| english| england language| american | usa| american language| usa Language| british| australia": "Greetings, fellow traveler! What do you seek? Tell me, and I shall assist you!",
+    "f3|tiếng pháp| french| france language": "Salutations, cher voyageur ! Que cherchez-vous ? Dites-moi, et je vous aiderai !",
+    "f4|tiếng tây ban nha| spanish| spain language": "Saludos, viajero! ¿Qué buscas? Dime y te ayudaré.",
+    "f5|tiếng trung|chinese|china language": "问候，旅人！你在寻找什么？告诉我，我会帮助你！",
+    "f6|tiếng nhật|japanese|japanjapan language": "挨拶を、旅人よ！何を求めている？話してくれれば、助けよう！",
 
-    "giá xe cũ|giá xe máy cũ|gia xe may cu|giã xe may cụ|da xe may cu|giaxemaycu|cho tôi giá xe máy cũ": "Giá xe máy cũ ở Đà Nẵng dao động từ 50-60 triệu VND. Giá vậy là rẻ lắm rồi đó đỗ nghèo khỉ",
-    "二手摩托车价格|èrshǒu mótuōchē jiàgé|ershoumotuochejiage": "哇！你在找二手摩托车的价格？这可是个好问题！价格从几千到几万人民币不等，要不要我帮你找个性价比超高的？",
-    "中古バイクの価格|ちゅうこバイクのかかく|chūko baiku no kakaku|chukobaikunokakaku": "おお！中古バイクを探してるんですね！価格はピンキリですが、いい掘り出し物が見つかるかも！？探してみましょうか？",
-    "prix de la moto d'occasion|Combien coûte une moto d'occasion": "Oh là là ! Tu veux acheter une moto d'occasion ? Les prix varient, mais ne t'inquiète pas, on va trouver une perle rare pour toi !",
-    "precio de motocicleta usada":"¡Vaya, qué buena pregunta ! Los precios pueden variar bastante, pero seguro encontramos una moto increíble para ti. ¿Te ayudo a buscar ?",
-    "price of old bike|old bike's price|old bike price": "Oh wow! Looking for a used bike ? Prices can go from super cheap to kinda expensive, but don't worry I will help you find the best deal",
+
+    "giá xe cũ|giá xe máy cũ|gia xe may cu|giã xe may cụ|da xe may cu|giaxemaycu|cho tôi giá xe máy cũ": "Lữ khách, cậu đang tìm kiếm một chiến mã cũ ư? Giá của chúng thường dao động từ 50 đến 60 triệu VND. Hãy cân nhắc kỹ trước khi xuống bạc!",
+    "二手摩托车价格|èrshǒu mótuōchē jiàgé|ershoumotuochejiage":"在找一匹老战马吗？它们的价格通常在 5000 万到 6000 万越南盾之间。钱要花得精打细算哦！",
+    "中古バイクの価格|ちゅうこバイクのかかく|chūko baiku no kakaku|chukobaikunokakaku": "古い愛馬を探しているんですね?価格は通常5000万〜6000万VNDの間です。お金は慎重に使わないとね!",
+    "prix de la moto d'occasion|Combien coûte une moto d'occasion":"Vous cherchez une vieille monture, hein ? Leurs prix varient généralement entre 50 et 60 millions de VND. Les pièces doivent être dépensées avec soin !",
+    "precio de motocicleta usada":"¿Buscando un viejo corcel, eh? Sus precios suelen oscilar entre 50 y 60 millones de VND. ¡Las monedas deben gastarse con cuidado!",
+    "price of old bike|old bike's price|old bike price": "Finding an old steed huh? Their prices usually range from 50 to 60 million VND. Coins need to be spent carefully!",
 
     
-    "bảo hiểm xe": "Bảo hiểm xe máy giá khoảng 66.000 VND/năm. Bạn muốn mua loại nào?",
-    "bảo dưỡng xe": "Bảo dưỡng xe định kỳ rất quan trọng! Bạn cần kiểm tra phần nào?",
-    "thay nhớt": "Thay nhớt định kỳ giúp xe bền hơn. Xe bạn dùng nhớt gì?",
-    "phanh xe": "Phanh là bộ phận an toàn quan trọng! Bạn muốn sửa hay thay mới?",
-    "vỏ xe": "Vỏ xe hết hạn nên thay ngay! Bạn thích vỏ lốp không săm hay có săm?",
+   "mua xe cũ ở đâu": "Đánh dấu nơi cậu sống trên bản đồ và ta sẽ chỉ lối cho cậu!",
+    "where to buy": "Point out where you live on the map, and I'll show you the way! But only in Vietnam, hahaha!",
+    "où acheter" : "Indiquez où vous habitez sur la carte, et je vous montrerai le chemin ! Mais seulement au Vietnam, hahaha !",
+    "dónde comprar": "¡Indique dónde vive en el mapa y le mostraré el camino! Pero solo en Vietnam, ¡jajaja!",
+    "在哪里买": "在地图上指出您住的地方，我会为您指路！但只能在越南，哈哈哈！",
+    "どこで買う": "地図で住んでいる場所を指してくれたら、道を案内します！でもベトナムだけですよ、ははは！",
+
+    "mua xe rẻ": "Ta có thể truy lùng một chiến mã với giá hời cho cậu! Nói ta xem, cậu sẵn lòng bỏ ra bao nhiêu đồng bạc đây?",
+    "cheap bike": "I can track down a warhorse for you at a bargain price! Tell me, how much silver are you willing to pay?",
+    "vélo pas cher": "Je peux vous dénicher un destrier à prix cassé ! Dites-moi, combien d'argent êtes-vous prêt à dépenser ?",  
+    "bicicleta barata": "¡Puedo encontrar un corcel de guerra para ti a un precio de ganga! Dime, ¿cuánto dinero estás dispuesto a pagar?",  
+    "便宜的自行车": "我可以帮你找到一匹廉价的战马！告诉我，你愿意支付多少银两？",  
+    "安いバイク": "お買い得な戦馬を探してあげますよ！いくらの銀貨を払うつもりですか？",  
+
+
+
+     "đăng ký xe": "Cậu muốn đăng ký một chiến mã mới hay sang tên một con ngựa sắt cũ? Hãy để ta dẫn đường!",
+    "vehicle registration": "Do you want to register a new steed or transfer the ownership of an old iron horse? Let me show you the way!",
+    "immatriculation du véhicule": "Vous voulez enregistrer une nouvelle monture ou transférer la propriété d'un vieux destrier de fer ? Laissez-moi vous montrer le chemin !",  
+    "registro de vehículo": "¿Quieres registrar un nuevo corcel o transferir la propiedad de un viejo caballo de hierro? ¡Déjame mostrarte el camino!",  
+    "车辆登记": "你想注册一匹新战马，还是转让一匹旧铁骑的所有权？让我来为你指路！",  
+    "車両登録": "新しい愛馬を登録しますか？それとも古い鉄馬の所有権を譲渡しますか？道を案内しますよ！",  
     
-    "xe số": "Xe số tiết kiệm xăng! Bạn muốn tìm xe hãng nào?",
-    "xe phân khối lớn": "Xe phân khối lớn rất mạnh mẽ! Bạn nhắm tới dung tích bao nhiêu cc?",
-    "sh mode": "SH Mode sang trọng nhỉ! Bạn đang xem bản 2023 hay đời cũ?",
-    "vision": "Vision nhỏ gọn và tiết kiệm xăng! Bạn muốn tìm màu gì?",
-    "air blade": "Air Blade thể thao và mạnh mẽ! Bạn thích bản 125cc hay 160cc?",
-    "125cc": "Xe 125cc tiết kiệm xăng!",
-    "Cho tôi tất cả thông tin về xe airblade 125cc cũ đi": "Để tôi",
+   
+
+    "bảo hiểm xe": "Nghe đây, lữ khách! Bảo hiểm chiến mã có giá khoảng 66.000 VND/năm. Cậu có muốn chọn một tấm khiên bảo vệ nào cho con ngựa sắt của mình?",
+    "vehicle insurance": "Listen here, traveler! Warhorse insurance costs around 66,000 VND per year. Do you want to choose a protective shield for your iron steed?",
+    "assurance véhicule": "Écoute bien, voyageur ! L'assurance de votre destrier coûte environ 66 000 VND par an. Voulez-vous choisir un bouclier protecteur pour votre monture de fer ?",
+    "seguro de vehículo": "¡Escucha, viajero! El seguro del corcel cuesta alrededor de 66.000 VND al año. ¿Quieres elegir un escudo protector para tu caballo de hierro?",
+    "车辆保险": "听好了，旅人！战马保险每年大约 66,000 越南盾。你想为你的铁骑选一面保护之盾吗？",
+    "車両保険": "聞いてくれ、旅人よ!戦馬の保険は年間約66,000VNDだ。鉄馬に守りの盾を選ぶかい?",
+
     
-    "đổi bằng lái": "Bạn muốn đổi bằng lái xe A1, A2 hay loại nào khác? Tôi sẽ hướng dẫn!",
-    "thi bằng lái xe": "Bạn muốn thi bằng A1 hay A2? Tôi sẽ chỉ bạn mẹo thi đậu!",
-    "kiểm tra phạt nguội": "Kiểm tra phạt nguội dễ lắm! Bạn cho tôi biển số xe nhé?",
-    "giữ xe lâu ngày": "Để xe lâu không đi thì nên kiểm tra bình ắc quy và thay nhớt trước khi chạy lại.",
     
-    "bơm lốp xe": "Bơm lốp đúng áp suất sẽ giúp xe chạy ổn định! Bạn muốn biết áp suất chuẩn không?",
-    "chỉnh garanti": "Garanti không ổn sẽ làm xe dễ chết máy! Bạn muốn tôi chỉ cách chỉnh không?",
-    "vệ sinh bugi": "Bugi bẩn dễ làm xe khó nổ! Tôi sẽ hướng dẫn bạn vệ sinh nhanh chóng.",
-    "sơn xe": "Muốn làm mới xe bằng sơn ư? Bạn thích màu nào? Tôi gợi ý cho!",
-    
-    "mua xe mới": "Mua xe mới thì tuyệt nhỉ! Ngân sách và nhu cầu của bạn thế nào?",
-    "xe tay côn": "Xe tay côn mạnh mẽ và cá tính! Bạn thích dòng nào?",
-    "đèn xe": "Đèn xe yếu có thể do bóng hoặc hệ thống điện. Bạn muốn kiểm tra phần nào?",
-    "khoá smartkey": "Smartkey tiện lợi và an toàn! Bạn muốn lắp mới hay sửa chữa?",
-    
-    "mua xe trả góp": "Trả góp giúp bạn dễ sở hữu xe hơn! Bạn muốn biết lãi suất và kỳ hạn không?",
-    "giấy tờ xe": "Giấy tờ xe gồm đăng ký, bảo hiểm và bằng lái. Bạn muốn biết thêm gì nữa không?",
-    "thay kính chiếu hậu": "Kính chiếu hậu rất quan trọng khi lái xe! Bạn muốn loại tiêu chuẩn hay thể thao?",
-    "đèn xi nhan": "Đèn xi nhan hỏng dễ gây nguy hiểm! Tôi sẽ chỉ bạn cách kiểm tra và thay mới.",
-    
-    "mua xe cũ ở đâu": "Có nhiều nơi mua xe cũ uy tín! Bạn ở tỉnh nào để tôi tìm giúp nhé?",
-    "xem số khung số máy": "Số khung số máy giúp bạn kiểm tra nguồn gốc xe. Tôi sẽ chỉ bạn cách xem!",
-    "thay lọc gió": "Lọc gió sạch giúp xe chạy êm hơn! Bạn muốn tôi hướng dẫn thay lọc gió không?",
-    "đi phượt": "Đi phượt bằng xe máy thú vị lắm! Bạn đã chuẩn bị đồ nghề và kiểm tra xe chưa?"
-    
+    "bảo dưỡng xe": "Giữ cho chiến mã luôn ở trạng thái tốt nhất là nhiệm vụ của mọi kỵ sĩ! Cậu muốn kiểm tra phần nào trước?",
+    "vehicle maintenance": "Keeping your warhorse in top condition is every rider is duty! Which part would you like to check first?",  
+    "entretien du véhicule": "Maintenir votre destrier en parfait état est le devoir de tout cavalier ! Quelle partie voulez-vous vérifier en premier ?",  
+    "mantenimiento del vehículo": "¡Mantener tu corcel en óptimas condiciones es el deber de todo jinete! ¿Qué parte quieres revisar primero?",  
+    "车辆保养": "让战马保持最佳状态是每位骑士的责任！你想先检查哪个部分？",  
+    "車両整備": "戦馬を最高の状態に保つのはすべての騎士の務め！どの部分を先に点検しますか？",  
+
+
+
+    "thay nhớt": "Nhớt chính là dòng huyết mạch của chiến mã! Thay định kỳ sẽ giúp nó bền bỉ hơn. Cậu đang dùng loại nào?",
+    "oil change": "Oil is the lifeblood of your warhorse! Regular changes will keep it running strong. Which type are you using?",  
+    "changement d'huile": "L'huile est le sang de votre destrier ! Un changement régulier lui assurera une meilleure longévité. Quel type utilisez-vous ?",  
+    "cambio de aceite": "¡El aceite es la sangre de tu corcel! Cambiarlo regularmente lo mantendrá en buen estado. ¿Qué tipo estás usando?",  
+    "更换机油": "机油就是战马的血液！定期更换能让它更持久耐用。你在使用哪种机油？",  
+    "オイル交換": "オイルは戦馬の血液だ！定期的に交換すれば長持ちするぞ。どの種類を使っている？",  
+
+
+
+    "phanh xe": "Phanh - Lá chắn cuối cùng giữa lữ khách và hiểm nguy! Cậu muốn sửa chữa hay thay mới lá chắn này?",
+    "brakes": "Brakes—the final shield between the traveler and danger! Do you want to repair or replace this shield?",  
+    "freins": "Les freins, le dernier bouclier entre le voyageur et le danger ! Voulez-vous les réparer ou les remplacer ?",  
+    "frenos": "¡Los frenos, el último escudo entre el viajero y el peligro! ¿Quieres repararlos o reemplazarlos?",  
+    "刹车": "刹车是旅人和危险之间的最后屏障！你想修理还是更换这道屏障？",  
+    "ブレーキ": "ブレーキは旅人と危険の間にある最後の盾！修理するか、新しく交換するか？",  
+
+
+
+    "đèn xe": "Đèn xe là đôi mắt trong đêm xua tan bóng tối! Liệu cậu cần thay mới chăng? ",
+    "headlights": "Headlights are the eyes that pierce the darkness of the night! Do you need a replacement?",  
+    "phares": "Les phares sont les yeux qui transpercent l'obscurité de la nuit ! Avez-vous besoin de les remplacer ?",  
+    "faros": "¡Los faros son los ojos que disipan la oscuridad de la noche! ¿Necesitas un reemplazo?",  
+    "车灯": "车灯是黑夜中驱散黑暗的眼睛！你需要更换吗？",  
+    "ヘッドライト": "ヘッドライトは闇を切り裂く夜の目！交換が必要ですか？",  
+
+
+
+    "lốp xe": "Đôi chân vững chắc của mọi chiến mã! Chọn đúng loại sẽ giúp kị sĩ chinh phục mọi cung đường, từ phố thị êm ả đến địa hình gồ ghề đầy thử thách!",
+    "tires": "The sturdy legs of every warhorse! Choosing the right type will help the rider conquer any road, from smooth city streets to rugged terrains!",  
+    "pneus": "Les jambes solides de chaque destrier ! Choisir le bon type aidera le cavalier à conquérir toutes les routes, des rues paisibles aux terrains accidentés et difficiles !",  
+    "neumáticos": "¡Las piernas fuertes de todo corcel! Elegir el tipo correcto ayudará al jinete a conquistar cualquier camino, desde las calles tranquilas de la ciudad hasta terrenos difíciles y accidentados.",  
+    "轮胎": "每匹战马都需要强健的双腿！选择合适的类型可以帮助骑士征服任何道路，从平坦的城市街道到崎岖的挑战地形！",  
+    "タイヤ": "すべての戦馬の頼れる足！適切な種類を選べば、都会の穏やかな道から険しい冒険の地まで制覇できるぞ！",  
+
+
+
+
+
+
+
+
+
+
+
 }
