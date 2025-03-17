@@ -71,7 +71,7 @@ if prompt:
         }
     )
     
-    with st.chat_message("user", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png"):
+    with st.chat_message("user", avatar="https://github.com/huy050822/Quoria-Chatbot/blob/main/avatar.png?raw=true"):
         st.markdown(prompt)
 
     responses = get_response(prompt)
