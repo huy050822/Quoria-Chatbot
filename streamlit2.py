@@ -71,12 +71,12 @@ if prompt:
         }
     )
     
-    with st.chat_message("user", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png?token=GHSAT0AAAAAAC7ONYRS5NYMP2DJZVUKZ5MAZ6X75TQ"):
+    with st.chat_message("user", avatar="https://imgur.com/egCEOLL"):
         st.markdown(prompt)
 
     responses = get_response(prompt)
     
-    with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/chatbot.png?token=GHSAT0AAAAAAC7ONYRTCBAEX6N3IWQ3WDSWZ6X75RQ"):
+    with st.chat_message("assistant", avatar="https://imgur.com/a/aKdY33y"):
         if prompt.lower() in ["giá xe máy cũ", "giá xe cũ", "gia xe may cu",  "giã xe may cụ", "da xe may cu","giaxemaycu","cho tôi giá xe máy cũ"]:
             with st.form("BIKE DETAIL FORM"):
                 st.write("Vui lòng điền thông tin xe để tôi giúp bạn định giá:")
