@@ -5,106 +5,190 @@
     "hola|hola quoria": "Ah, un alma nueva en estas tierras! Dime, viajero, ¿qué te trae a este reino? Soy un humilde guía, guardián del conocimiento y los susurros. Pregunta, y te guiaré.",
     "nihao|nihao quoria|你好 quoria": "啊，这片土地上的新灵魂！旅人啊，是什么将你带到了这个世界？我是一个谦卑的向导，知识与低语的守护者。请问吧，我会指引你！",
     "konichiwa|konichiwa quoria|こんにちは quoria": "ああ、この地に新しき魂よ！旅人よ、何があなたをこの世界へと導いたのか？私は謙虚なる導き手、知識と囁きの守護者なり。尋ねよ、さらば導かん！",
-    "f1|tiếng việt|vietnamese|vietnam language": "Hahaha Quoria ta cũng là người đến từ Việt Nam đấy! Hỡi lữ khách, có điều gì khiến cậu bận tâm chăng? Hãy nói, ta sẽ giúp sức!",
-    "f2|tiếng anh| english| england language| american | usa| american language| usa Language| british| australia": "Greetings, fellow traveler! What do you seek? Tell me, and I shall assist you!",
-    "f3|tiếng pháp| french| france language": "Salutations, cher voyageur ! Que cherchez-vous ? Dites-moi, et je vous aiderai !",
-    "f4|tiếng tây ban nha| spanish| spain language": "Saludos, viajero! ¿Qué buscas? Dime y te ayudaré.",
-    "f5|tiếng trung|chinese|china language": "问候，旅人！你在寻找什么？告诉我，我会帮助你！",
-    "f6|tiếng nhật|japanese|japanjapan language": "挨拶を、旅人よ！何を求めている？話してくれれば、助けよう！",
-
-
-    "giá xe cũ|giá xe máy cũ|gia xe may cu|giã xe may cụ|da xe may cu|giaxemaycu|cho tôi giá xe máy cũ": "Lữ khách, cậu đang tìm kiếm một chiến mã cũ ư? Giá của chúng thường dao động từ 50 đến 60 triệu VND. Hãy cân nhắc kỹ trước khi xuống bạc!",
-    "二手摩托车价格|èrshǒu mótuōchē jiàgé|ershoumotuochejiage":"在找一匹老战马吗？它们的价格通常在 5000 万到 6000 万越南盾之间。钱要花得精打细算哦！",
+    "giá xe cũ|giá xe máy cũ|gia xe may cu|giã xe may cụ|da xe may cu|giaxemaycu|cho tôi giá xe máy cũ": "Lữ khách, cậu đang tìm kiếm một chiến mã cũ ư? Giá của chúng thường dao động từ 50 đến 60 triệu VND. Hãy cân nhắc kỹ trước khi xuống bạc!", 
+    "old bikes price|price of old bike|old bike's price|old bike price": "Finding an old steed huh? Their prices usually range from 50 to 60 million VND. Coins need to be spent carefully!",     
+    "prix des vieux vélos|prix de la moto d'occasion|Combien coûte une moto d'occasion": "Vous cherchez une vieille monture, hein ? Leurs prix varient généralement entre 50 et 60 millions de VND. Les pièces doivent être dépensées avec soin !",  
+    "precio de bicicletas viejas|precio de motocicleta usada": "¿Buscando un viejo corcel, eh? Sus precios suelen oscilar entre 50 y 60 millones de VND. ¡Las monedas deben gastarse con cuidado!",  
+    "二手摩托车价格|èrshǒu mótuōchē jiàgé|ershoumotuochejiage": "在找一匹老战马吗？它们的价格通常在 5000 万到 6000 万越南盾之间。钱要花得精打细算哦！", 
     "中古バイクの価格|ちゅうこバイクのかかく|chūko baiku no kakaku|chukobaikunokakaku": "古い愛馬を探しているんですね?価格は通常5000万〜6000万VNDの間です。お金は慎重に使わないとね!",
-    "prix de la moto d'occasion|Combien coûte une moto d'occasion":"Vous cherchez une vieille monture, hein ? Leurs prix varient généralement entre 50 et 60 millions de VND. Les pièces doivent être dépensées avec soin !",
-    "precio de motocicleta usada":"¿Buscando un viejo corcel, eh? Sus precios suelen oscilar entre 50 y 60 millones de VND. ¡Las monedas deben gastarse con cuidado!",
-    "price of old bike|old bike's price|old bike price": "Finding an old steed huh? Their prices usually range from 50 to 60 million VND. Coins need to be spent carefully!",
+    "mua xe cũ ở đâu|nơi mua xe cũ|chỗ bán xe cũ|địa điểm mua xe máy cũ|mua xe máy cũ ở đâu|tìm xe cũ|nơi bán xe máy cũ|tôi muốn mua xe cũ|tìm chỗ mua xe cũ|cửa hàng xe cũ|shop xe cũ|bán xe cũ ở đâu|tôi có thể mua xe cũ ở đâu": "Đánh dấu nơi cậu sống trên bản đồ và ta sẽ chỉ lối cho cậu!",
+    "where to buy|where can i buy|buy old bike|where to purchase|find old bike|old bike shop|used bike location|second hand bike shop|where to get used bike|where to find old bike|old bike store|used motorcycle store|motorcycle shop|used bike dealer|second hand motorcycle shop": "Point out where you live on the map, and I'll show you the way! But only in Vietnam, hahaha!",
+    "où acheter|où puis-je acheter|magasin de motos|trouver moto occasion|boutique vélo occasion|endroit achat moto|lieu achat deux roues|boutique moto d'occasion|marchands de motos usagées|où trouve-t-on|commerce de motos|revendeur de deux-roues|où se procurer une moto": "Indiquez où vous habitez sur la carte, et je vous montrerai le chemin ! Mais seulement au Vietnam, hahaha !",
+    "dónde comprar|dónde puedo comprar|tienda de motocicletas|encontrar moto usada|tienda de motos usadas|lugar para comprar moto|sitio venta motocicletas|tienda de motos de segunda mano|donde encuentro|vendedor de motos|comercio de motocicletas|donde adquirir una moto": "¡Indique dónde vive en el mapa y le mostraré el camino! Pero solo en Vietnam, ¡jajaja!",
+    "在哪里买|哪里可以买|二手摩托车店|去哪买摩托车|找二手摩托车|摩托车商店|购买摩托车的地方|二手车商|摩托车经销商|哪里有卖二手摩托|摩托车市场|哪能买到|摩托车交易市场": "在地图上指出您住的地方，我会为您指路！但只能在越南，哈哈哈！",
+    "どこで買う|どこで買えますか|バイクショップ|中古バイク店|バイク販売店|二輪車販売店|中古バイク取扱店|バイク専門店|中古車ディーラー|バイク市場|どこで探せばいいですか|バイク購入場所|中古バイク販売所": "地図で住んでいる場所を指してくれたら、道を案内します！でもベトナムだけですよ、ははは！",
+    "mua xe rẻ|xe rẻ|mua xe giá rẻ|xe giá rẻ|mua xe máy rẻ|xe máy giá rẻ|mua xe giá tốt|tìm xe rẻ|xe máy rẻ|mua xe máy giá rẻ|mua xe ít tiền|xe máy giá tốt|chỗ bán xe rẻ|muốn mua xe rẻ|giá hời|xe không đắt|xe máy giá mềm|giá phải chăng": "Ta có thể truy lùng một chiến mã với giá hời cho cậu! Nói ta xem, cậu sẵn lòng bỏ ra bao nhiêu đồng bạc đây?",
+    "cheap bike|affordable bike|low cost bike|budget bike|inexpensive bike|economical bike|buy cheap bike|find cheap bike|reasonably priced bike|low budget motorcycle|cheap motorcycle|bargain bike|best deal bike|economic motorcycle|cost effective bike|cheapest bike|good price motorbike": "I can track down a warhorse for you at a bargain price! Tell me, how much silver are you willing to pay?",
+    "vélo pas cher|moto économique|deux roues abordable|acheter moto pas cher|trouver vélo bon marché|moto petit budget|prix réduit moto|acheter scooter économique|prix abordable|tarif raisonnable|moto à bas prix|véhicule économe|bon marché|scooter à petit prix|prix modéré": "Je peux vous dénicher un destrier à prix cassé ! Dites-moi, combien d'argent êtes-vous prêt à dépenser ?",  
+    "bicicleta barata|moto económica|comprar moto barata|motocicleta bajo costo|moto precio reducido|vehículo económico|motocicleta asequible|comprar moto económica|precio accesible|moto buen precio|oferta de motocicleta|precio razonable|costo bajo|scooter económico|precio rebajado": "¡Puedo encontrar un corcel de guerra para ti a un precio de ganga! Dime, ¿cuánto dinero estás dispuesto a pagar?",  
+    "便宜的自行车|便宜摩托车|经济型摩托车|低价摩托车|买便宜车|实惠的摩托车|划算的摩托车|低成本摩托车|廉价的摩托|便宜机车|价格合理的摩托|性价比高的摩托|价廉的车|经济实惠|便宜坐骑|实惠可靠": "我可以帮你找到一匹廉价的战马！告诉我，你愿意支付多少银两？",  
+    "安いバイク|お手頃バイク|低価格バイク|経済的なバイク|格安の二輪車|リーズナブルなバイク|予算内のバイク|安価なオートバイ|手頃な原付|値段が安い|低コスト|コスパの良いバイク|安いスクーター|お買い得なオートバイ|格安中古車|リーズナブルな価格": "お買い得な戦馬を探してあげますよ！いくらの銀貨を払うつもりですか？",  
+    "đăng ký xe|làm giấy tờ xe|đăng ký xe máy|làm thủ tục xe|đăng ký giấy tờ xe|giấy tờ đăng ký xe|sang tên xe|thủ tục đăng ký xe|giấy chứng nhận xe|giấy phép xe|đăng kí xe|đăng kiểm xe|thủ tục sang tên|cách đăng ký xe": "Cậu muốn đăng ký một chiến mã mới hay sang tên một con ngựa sắt cũ? Hãy để ta dẫn đường!",
+    "vehicle registration|register motorcycle|bike registration|motorcycle paperwork|register vehicle|transfer ownership|vehicle documents|register bike|new bike registration|vehicle title|transfer bike ownership|motorcycle permit|registration process|how to register bike": "Do you want to register a new steed or transfer the ownership of an old iron horse? Let me show you the way!",
+    "immatriculation du véhicule|enregistrement moto|papiers de moto|immatriculer une moto|carte grise|transfert de propriété|documents véhicule|permis de circulation|procédure d'immatriculation|titre de propriété|certificat d'immatriculation|démarches administratives|papiers officiels": "Vous voulez enregistrer une nouvelle monture ou transférer la propriété d'un vieux destrier de fer ? Laissez-moi vous montrer le chemin !",  
+    "registro de vehículo|matriculación de moto|papeles de motocicleta|documentación de moto|traspaso de motocicleta|título de propiedad|registro de motocicleta|permiso de circulación|matrícula de vehículo|trámites administrativos|cambio de titular|documentos oficiales|registrar moto": "¿Quieres registrar un nuevo corcel o transferir la propiedad de un viejo caballo de hierro? ¡Déjame mostrarte el camino!",  
+    "车辆登记|摩托车注册|登记摩托车|机车牌照|车辆过户|摩托车证件|车辆证明|摩托车登记手续|登记证书|车辆登记流程|转让登记|机动车登记|摩托车所有权转让|车辆过户手续": "你想注册一匹新战马，还是转让一匹旧铁骑的所有权？让我来为你指路！",  
+    "車両登録|バイク登録|登録手続き|ナンバープレート取得|所有権移転|バイク書類|登録証|名義変更|二輪車登録|バイク登録方法|車検証|登録手順|オートバイ許可証|二輪車ライセンス": "新しい愛馬を登録しますか？それとも古い鉄馬の所有権を譲渡しますか？道を案内しますよ！",  
+    "bảo hiểm xe|mua bảo hiểm xe|bảo hiểm xe máy|phí bảo hiểm xe|đóng bảo hiểm xe|bảo hiểm trách nhiệm dân sự|bảo hiểm xe bắt buộc|mua bhxm|hợp đồng bảo hiểm xe|các loại bảo hiểm xe|giá bảo hiểm xe máy|chi phí bảo hiểm xe|bảo hiểm tai nạn xe|công ty bảo hiểm xe": "Nghe đây, lữ khách! Bảo hiểm chiến mã có giá khoảng 66.000 VND/năm. Cậu có muốn chọn một tấm khiên bảo vệ nào cho con ngựa sắt của mình?",
+    "vehicle insurance|bike insurance|motorcycle insurance|insurance cost|buy vehicle insurance|mandatory insurance|insurance policy|insurance coverage|motor insurance|vehicle protection|accident insurance|insurance premium|third party insurance|motorbike insurance plan": "Listen here, traveler! Warhorse insurance costs around 66,000 VND per year. Do you want to choose a protective shield for your iron steed?",
+    "assurance véhicule|assurance moto|assurance deux roues|coût assurance|prime d'assurance|assurance obligatoire|police d'assurance|protection véhicule|couverture assurance|assurance responsabilité civile|assurance accident|tarif assurance|garantie moto|contrat d'assurance": "Écoute bien, voyageur ! L'assurance de votre destrier coûte environ 66 000 VND par an. Voulez-vous choisir un bouclier protecteur pour votre monture de fer ?",
+    "seguro de vehículo|seguro de moto|seguro de motocicleta|costo del seguro|seguro obligatorio|póliza de seguro|protección de vehículo|cobertura de seguro|seguro a terceros|prima de seguro|seguro contra accidentes|tarifa de seguro|garantía de moto|contrato de seguro": "¡Escucha, viajero! El seguro del corcel cuesta alrededor de 66.000 VND al año. ¿Quieres elegir un escudo protector para tu caballo de hierro?",
+    "车辆保险|摩托车保险|保险费用|购买车险|强制保险|保险单|车辆保障|保险覆盖|机动车保险|车辆意外保险|第三者责任险|摩托车保险计划|保费|车辆保护计划": "听好了，旅人！战马保险每年大约 66,000 越南盾。你想为你的铁骑选一面保护之盾吗？",
+    "車両保険|バイク保険|二輪車保険|保険料|強制保険|保険証券|車両保障|保険適用範囲|自動車保険|事故保険|対人保険|保険プラン|任意保険|バイク保護プラン": "聞いてくれ、旅人よ!戦馬の保険は年間約66,000VNDだ。鉄馬に守りの盾を選ぶかい?",
+    "bảo dưỡng xe|bảo trì xe|chăm sóc xe|tôi muốn bảo dưỡng xe|kiểm tra xe|sửa xe|làm đẹp xe|chăm sóc chiến mã|giữ xe bền|sửa chữa xe định kỳ|khám xe|vệ sinh xe|chỉnh sửa xe|bảo dưỡng xe máy|kiểm tra định kỳ|dịch vụ bảo dưỡng": "Giữ cho chiến mã luôn ở trạng thái tốt nhất là nhiệm vụ của mọi kỵ sĩ! Cậu muốn kiểm tra phần nào trước?",
+    "vehicle maintenance|bike maintenance|motorcycle maintenance|maintain bike|service bike|bike check up|check my bike|keep bike running|motorcycle service|regular maintenance|bike inspection|motorcycle tune up|repair bike|scheduled maintenance|bike servicing|clean my bike": "Keeping your warhorse in top condition is every rider's duty! Which part would you like to check first?",  
+    "entretien du véhicule|maintenance moto|révision deux roues|entretenir sa moto|vérification moto|service moto|contrôle technique|réparation régulière|maintenir moto|inspection moto|nettoyage moto|ajustement mécanique|entretien périodique|mise au point|réglage moto": "Maintenir votre destrier en parfait état est le devoir de tout cavalier ! Quelle partie voulez-vous vérifier en premier ?",  
+    "mantenimiento del vehículo|mantenimiento de moto|mantenimiento de motocicleta|revisar moto|servicio de moto|cuidado de motocicleta|mantener moto|revisión periódica|inspección de moto|limpieza de moto|ajuste mecánico|mantenimiento programado|puesta a punto|reparación regular": "¡Mantener tu corcel en óptimas condiciones es el deber de todo jinete! ¿Qué parte quieres revisar primero?",  
+    "车辆保养|摩托车保养|维护摩托车|检查摩托车|摩托车服务|定期保养|维修摩托车|保持摩托车状态|摩托车检修|车辆维护|清洁摩托车|机械调整|定期检查|摩托车调整|修理保养": "让战马保持最佳状态是每位骑士的责任！你想先检查哪个部分？",  
+    "車両整備|バイク整備|バイクメンテナンス|バイク点検|オートバイ整備|定期点検|バイク修理|愛車のお手入れ|バイク調整|メンテナンス|バイク清掃|機械調整|定期整備|エンジン調整|車検": "戦馬を最高の状態に保つのはすべての騎士の務め！どの部分を先に点検しますか？",  
+    "thay nhớt|thay dầu xe|thay dầu máy|đổi nhớt|thay nhớt xe máy|khi nào thay nhớt|nhớt xe máy|dầu động cơ|thay dầu|nhớt loại nào tốt|chu kỳ thay nhớt|cách thay nhớt|loại nhớt nào|thay nhớt bao lâu một lần|nhớt xe": "Nhớt chính là dòng huyết mạch của chiến mã! Thay định kỳ sẽ giúp nó bền bỉ hơn. Cậu đang dùng loại nào?",
+    "oil change|change engine oil|replace oil|motor oil|best oil for bike|when to change oil|engine oil type|oil change frequency|how to change oil|motorcycle oil|synthetic oil|oil maintenance|oil service|oil replacement|what oil to use": "Oil is the lifeblood of your warhorse! Regular changes will keep it running strong. Which type are you using?",  
+    "changement d'huile|changer huile moteur|remplacer huile|huile moteur|meilleure huile|quand changer l'huile|type d'huile|fréquence vidange|comment changer l'huile|huile moto|huile synthétique|entretien huile|service huile|remplacement huile|quelle huile utiliser": "L'huile est le sang de votre destrier ! Un changement régulier lui assurera une meilleure longévité. Quel type utilisez-vous ?",  
+    "cambio de aceite|cambiar aceite motor|reemplazar aceite|aceite de motor|mejor aceite|cuándo cambiar aceite|tipo de aceite|frecuencia cambio aceite|cómo cambiar aceite|aceite para moto|aceite sintético|mantenimiento aceite|servicio aceite|reemplazo aceite|qué aceite usar": "¡El aceite es la sangre de tu corcel! Cambiarlo regularmente lo mantendrá en buen estado. ¿Qué tipo estás usando?",  
+    "更换机油|换发动机油|更换润滑油|发动机油|最佳机油|何时更换机油|机油类型|换油频率|如何更换机油|摩托车机油|合成机油|机油保养|换油服务|机油更换|使用什么机油": "机油就是战马的血液！定期更换能让它更持久耐用。你在使用哪种机油？",  
+    "オイル交換|エンジンオイル交換|オイル交換時期|モーターオイル|最適なオイル|オイル交換頻度|オイルの種類|オイル交換方法|バイクオイル|合成オイル|オイルメンテナンス|オイルサービス|どんなオイルを使うべきか|オイル選び方": "オイルは戦馬の血液だ！定期的に交換すれば長持ちするぞ。どの種類を使っている？",  
+    "phanh xe|thắng xe|bộ phanh|má phanh xe|hệ thống phanh|thay phanh xe|sửa phanh|chỉnh phanh|kiểm tra phanh|bảo dưỡng phanh|phanh đĩa|phanh tang trống|dầu phanh|phanh không ăn|phanh kêu|hiệu quả phanh": "Phanh - Lá chắn cuối cùng giữa lữ khách và hiểm nguy! Cậu muốn sửa chữa hay thay mới lá chắn này?",
+    "brakes|brake system|brake pads|check brakes|fix brakes|brake maintenance|brake fluid|disc brakes|drum brakes|brake replacement|brake adjustment|brake efficiency|brake noise|brake failure|brake inspection|brake service": "Brakes—the final shield between the traveler and danger! Do you want to repair or replace this shield?",  
+    "freins|système de freinage|plaquettes de frein|vérifier freins|réparer freins|entretien freins|liquide de frein|freins à disque|freins à tambour|remplacement freins|ajustement freins|efficacité freinage|bruit de frein|défaillance frein|inspection freins|service freins": "Les freins, le dernier bouclier entre le voyageur et le danger ! Voulez-vous les réparer ou les remplacer ?",  
+    "frenos|sistema de frenos|pastillas de freno|revisar frenos|arreglar frenos|mantenimiento frenos|líquido de frenos|frenos de disco|frenos de tambor|reemplazo frenos|ajuste frenos|eficiencia frenos|ruido frenos|fallo frenos|inspección frenos|servicio frenos": "¡Los frenos, el último escudo entre el viajero y el peligro! ¿Quieres repararlos o reemplazarlos?",  
+    "刹车|制动系统|刹车片|检查刹车|修理刹车|刹车保养|刹车油|盘式刹车|鼓式刹车|更换刹车|调整刹车|刹车效率|刹车噪音|刹车失灵|刹车检查|刹车服务": "刹车是旅人和危险之间的最后屏障！你想修理还是更换这道屏障？",  
+    "ブレーキ|ブレーキシステム|ブレーキパッド|ブレーキ点検|ブレーキ修理|ブレーキメンテナンス|ブレーキオイル|ディスクブレーキ|ドラムブレーキ|ブレーキ交換|ブレーキ調整|ブレーキ効率|ブレーキ音|ブレーキ故障|ブレーキ検査": "ブレーキは旅人と危険の間にある最後の盾！修理するか、新しく交換するか？",  
+    "đèn xe|đèn trước|đèn pha|đèn hậu|đèn xi nhan|đèn xinhan|đèn báo rẽ|hệ thống chiếu sáng|bóng đèn xe|thay đèn xe|đèn led|đèn halogen|độ đèn|đèn không sáng|đèn bị hỏng|cường độ ánh sáng": "Đèn xe là đôi mắt trong đêm xua tan bóng tối! Liệu cậu cần thay mới chăng? ",
+    "headlights|front light|tail light|turn signal|lighting system|bike lamp|replace headlight|led lights|halogen light|upgrade lights|light not working|broken light|light intensity|motorcycle headlight|light bulb|turn indicators": "Headlights are the eyes that pierce the darkness of the night! Do you need a replacement?",  
+    "phares|feu avant|feu arrière|clignotant|système d'éclairage|lampe moto|remplacer phare|lumières led|lampe halogène|améliorer éclairage|lumière ne fonctionne pas|lumière cassée|intensité lumineuse|phare moto|ampoule|indicateurs de direction": "Les phares sont les yeux qui transpercent l'obscurité de la nuit ! Avez-vous besoin de les remplacer ?",  
+    "faros|luz delantera|luz trasera|intermitente|sistema de iluminación|lámpara moto|reemplazar faro|luces led|luz halógena|mejorar luces|luz no funciona|luz rota|intensidad luz|faro motocicleta|bombilla|indicadores de giro": "¡Los faros son los ojos que disipan la oscuridad de la noche! ¿Necesitas un reemplazo?",  
+    "车灯|前灯|尾灯|转向灯|照明系统|摩托车灯|更换前灯|LED灯|卤素灯|升级灯光|灯不亮|灯坏了|光强度|摩托车前灯|灯泡|转向指示灯": "车灯是黑夜中驱散黑暗的眼睛！你需要更换吗？",  
+    "ヘッドライト|前照灯|テールライト|ウインカー|照明システム|バイクランプ|ヘッドライト交換|LEDライト|ハロゲンランプ|ライトアップグレード|ライト不良|破損したライト|光度|バイクヘッドライト|電球|方向指示器": "ヘッドライトは闇を切り裂く夜の目！交換が必要ですか？",  
+    "lốp xe|lopxe|lop xe|lôp xe|lộp xé|loppxe|lop xee| bánh xe| lốp radical| lốp tubeless| lốp hơi| lốp đặc| vỏ xe|xe xẹp lốp|xì lốp|bơm lốp|lốp bị mòn| mòn lốp|thay lốp": "Đôi chân vững chắc của mọi chiến mã! Chọn đúng loại sẽ giúp kị sĩ chinh phục mọi cung đường, từ phố thị êm ả đến địa hình gồ ghề đầy thử thách!",
+    "tire| wheel| radial tire|tubeless tire|pneumatic tire|solid tire|tire casing|flat tire|deflated tire|inflate tire|worn tire| replace tire": "The sturdy legs of every warhorse! Choosing the right type will help the rider conquer any road, from smooth city streets to rugged terrains!",  
+    "pneus, roue|pneu radial|pneu tubeless|pneu pneumatique|pneu plein|carcasse de pneu|pneu crevé|pneu dégonflé|gonfler un pneu| pneu usé| remplacer un pneu": "Les jambes solides de chaque destrier ! Choisir le bon type aidera le cavalier à conquérir toutes les routes, des rues paisibles aux terrains accidentés et difficiles !",  
+    "neumáticos | rueda | neumático radial | neumático sin cámara | neumático neumático | neumático macizo | carcasa de neumático | neumático pinchado | neumático desinflado | inflar neumático | neumático desgastado | reemplazar neumático": "¡Las piernas fuertes de todo corcel! Elegir el tipo correcto ayudará al jinete a conquistar cualquier camino, desde las calles tranquilas de la ciudad hasta terrenos difíciles y accidentados.",  
+    "轮胎  | 车轮 | 子午线轮胎 | 无内胎轮胎 | 充气轮胎 | 实心轮胎 | 轮胎外壳 | 爆胎 | 轮胎放气 | 充气轮胎 | 磨损轮胎 | 更换轮胎": "每匹战马都需要强健的双腿！选择合适的类型可以帮助骑士征服任何道路，从平坦的城市街道到崎岖的挑战地形！",  
+    "タイヤ | ホイール | ラジアルタイヤ | チューブレスタイヤ | 空気入りタイヤ | ソリッドタイヤ | タイヤカバー | パンクしたタイヤ | 空気が抜けたタイヤ | タイヤに空気を入れる | 摩耗したタイヤ | タイヤ交換": "すべての戦馬の頼れる足！適切な種類を選べば、都会の穏やかな道から険しい冒険の地まで制覇できるぞ！",  
+
+
+
+    "đổi bằng lái|giấy phép lái xe|bằng lái xe|chuyển đổi bằng|gia hạn bằng|cấp lại bằng|tài liệu hợp lệ|bằng lái hết hạn|thủ tục hồ sơ|kiểm tra bằng lái|bằng lái quốc tế|chứng nhận lái xe|cấp phép lái xe|chứng minh thư|văn phòng cấp bằng":"Lữ khách muốn nâng cấp huy hiệu điều khiển chiến mã? Cậu chọn bằng A1, A2 hay một loại khác? Hãy để ta dẫn đường!",  
+    "driver's license exchange|driving license|license conversion|license renewal|license reissue|expired license|document procedure|valid documents|license exchange fee|driving test|license extension|international driving permit|license check|driving certification|licensing office|identification card":"Traveler, do you wish to upgrade your warhorse control badge? Are you choosing an A1, A2, or another type? Let me guide you!",  
+    "échange de permis de conduire|licence de conduite|conversion de permis|renouvellement de permis|réémission de permis|permis expiré|procédure de documents|prolongation de permis|permis de conduire international|vérification du permis|certification de conduite|documents valides|bureau des permis|carte d'identité":"Voyageur, voulez-vous améliorer votre insigne de contrôle de destrier ? Choisissez-vous un permis A1, A2 ou un autre type ? Laissez-moi vous guider !",  
+    "cambio de licencia de conducir|permiso de conducción|conversión de licencia|renovación de licencia|reemisión de licencia|licencia expirada|procedimiento documental|extensión de licencia|permiso de conducir internacional|verificación de licencia|certificación de conducción|documentos válidos|oficina de licencias|tarjeta de identificación":"Viajero, ¿quieres mejorar tu insignia de control del corcel? ¿Eliges una A1, A2 u otro tipo? ¡Déjame guiarte!",  
+    "驾驶证换领|驾驶证|驾照|证件转换|证件续期|证件补发|过期驾照|换证费用|驾驶考试|文件办理流程|驾照延期|国际驾驶证|驾照查询|驾驶认证|合法文件|发证办公室|身份证":"旅人，你想升级你的战马驾驭徽章吗？你选择 A1、A2 还是其他类型？让我来引路吧！",  
+    "運転免許の交換|運転免許証|免許証|免許切り替え|免許更新|免許再発行|期限切れ免許|免許交換手数料|運転試験|書類手続き|免許延長|国際運転免許証|免許確認|運転認定|有効な書類|免許発行事務所|身分証明書":"旅人よ、戦馬を操るバッジをグレードアップしたいか ? A1、A2、それとも別の種類か ? 案内しよう！",
+
+
+
+    "thi bằng lái xe|bài thi lý thuyết|mẹo thi bằng lái|câu hỏi thi sát hạch|đăng ký thi bằng lái|kỳ thi sát hạch|thi thực hành lái xe|sát hạch lái xe|thi GPLX|lệ phí thi bằng lái|đề thi bằng lái|kết quả thi bằng lái|thời gian thi bằng|cách đăng ký thi bằng|mẹo đỗ bằng lái": "A1, A2 hay một loại bằng nào khác? Kiến thức vô biên của ta có thể chỉ cậu một vài mẹo hữu ích đấy!",
+    "driving test|theory test|license exam|practical test|register for driving test|driving theory questions|driving license fee|exam schedule|pass driving test tips|driving test results|license exam registration|road test|hazard perception test|motorcycle test|driving knowledge test": "A1, A2, or another license type? My boundless knowledge can share some useful tips with you!",
+    "examen de conduite|test de code|examen théorique|examen pratique|s'inscrire à l'examen|questions du code de la route|frais d'examen|calendrier d'examen|réussir l'examen|résultats du permis|inscription au permis|test de perception des dangers|examen de moto|conseils permis de conduire|test de conduite": "A1, A2 ou un autre type de permis ? Mon savoir sans limites peut te donner quelques conseils utiles !",
+    "examen de manejo|prueba teórica|prueba práctica|registro de examen de conducción|preguntas del examen de manejo|costo del examen de licencia|horario del examen|consejos para aprobar el examen|resultados del examen de licencia|registro de prueba de conducción|examen de carretera|prueba de percepción de peligros|examen de motocicleta|prueba de conocimientos de conducción|consejos para el examen de conducción": "¿A1, A2 o algún otro tipo de licencia? ¡Mi conocimiento infinito puede darte algunos consejos útiles!",
+    "驾照考试|理论考试|驾驶执照考试|路考|报名驾照考试|驾驶理论题|驾照考试费用|考试时间表|如何通过驾照考试|驾照考试结果|报名驾驶考试|危险感知测试|摩托车驾照考试|驾驶知识测试|驾驶考试技巧": "A1、A2 还是其他类型的驾照？我无尽的知识可以给你一些有用的技巧！",
+    "運転免許試験|筆記試験|運転技能試験|運転試験登録|運転免許試験の質問|運転免許費用|試験スケジュール|運転免許試験合格のコツ|試験結果|運転試験申し込み|道路試験|危険認識試験|バイク試験|運転知識テスト|運転免許試験対策": "A1、A2、それとも別の免許 ? 私の無限の知識が役立つコツを教えよう！",
+
+
+
+    "kiểm tra phạt nguội|tra cứu phạt nguội|phạt nguội xe máy|phạt nguội ô tô|kiểm tra lỗi vi phạm|xem phạt nguội|phạt nguội giao thông|kiểm tra vi phạm giao thông|tra cứu vi phạm xe máy|phạt nguội trực tuyến|tra phạt giao thông|tìm lỗi phạt nguội|phạt nguội là gì|cách tra cứu phạt nguội|hệ thống phạt nguội": "Kiểm tra phạt nguội đơn giản như rút kiếm khỏi vỏ! Lữ khách hãy cho ta biết biển số chiến mã của mình!",
+    "traffic fine check|lookup traffic fines|car fine check|motorbike fine check|unpaid fine search|online traffic fine|speeding ticket check|red light fine check|traffic violation check|driving penalty check|license plate fine check|vehicle fine lookup|how to check traffic fines|government fine system|unpaid ticket lookup": "Checking traffic fines is as simple as drawing a sword from its sheath! Traveler, tell me your warhorse's license plate!",
+    "vérification des amendes|recherche d’amendes|amende excès de vitesse|contraventions de stationnement|vérifier une contravention|infraction routière|consultation amendes|amende feu rouge|recherche d'amende en ligne|sanctions routières|comment vérifier une amende|frais de circulation|relevé des infractions|amendes non payées|consultation des amendes de circulation": "Vérifier les amendes, c'est aussi simple que de dégainer une épée ! Voyageur, donne-moi la plaque de ton destrier !",
+    "verificación de multas|consulta de multas|multas de tráfico|multa por exceso de velocidad|multa por semáforo en rojo|multa de estacionamiento|consulta de infracciones|chequeo de multas|ver multas de tránsito|buscar multas impagas|cómo verificar multas|multas de conducción|sistema de multas|registro de infracciones|pago de multas en línea": "¡Revisar multas de tráfico es tan simple como desenvainar una espada! Viajero, dime la matrícula de tu corcel.",
+    "违章罚款查询|交通罚款查询|机动车罚款查询|电子眼罚款查询|查询交通违章|超速罚款|闯红灯罚款|停车违章罚款|未缴罚款查询|车牌罚款查询|如何查询交通罚款|交管局罚款查询|违章记录|驾驶证扣分查询|在线罚款支付": "查询违章罚款就像出鞘拔剑一样简单！旅人，请告诉我你的战马车牌号！",
+    "違反切符確認|違反罰金の確認|交通違反の確認|駐車違反の罰金|スピード違反の罰金|信号無視の罰金|未払い罰金の確認|運転違反の確認|車両違反の検索|罰金履歴|ナンバープレートで罰金を確認|違反記録のチェック|オンライン罰金検索|交通違反の支払い方法|道路交通法違反の確認": "違反切符の確認は、剣を鞘から抜くほど簡単！旅人よ、戦馬のナンバープレートを教えてくれ！",
+
 
     
-   "mua xe cũ ở đâu": "Đánh dấu nơi cậu sống trên bản đồ và ta sẽ chỉ lối cho cậu!",
-    "where to buy": "Point out where you live on the map, and I'll show you the way! But only in Vietnam, hahaha!",
-    "où acheter" : "Indiquez où vous habitez sur la carte, et je vous montrerai le chemin ! Mais seulement au Vietnam, hahaha !",
-    "dónde comprar": "¡Indique dónde vive en el mapa y le mostraré el camino! Pero solo en Vietnam, ¡jajaja!",
-    "在哪里买": "在地图上指出您住的地方，我会为您指路！但只能在越南，哈哈哈！",
-    "どこで買う": "地図で住んでいる場所を指してくれたら、道を案内します！でもベトナムだけですよ、ははは！",
 
-    "mua xe rẻ": "Ta có thể truy lùng một chiến mã với giá hời cho cậu! Nói ta xem, cậu sẵn lòng bỏ ra bao nhiêu đồng bạc đây?",
-    "cheap bike": "I can track down a warhorse for you at a bargain price! Tell me, how much silver are you willing to pay?",
-    "vélo pas cher": "Je peux vous dénicher un destrier à prix cassé ! Dites-moi, combien d'argent êtes-vous prêt à dépenser ?",  
-    "bicicleta barata": "¡Puedo encontrar un corcel de guerra para ti a un precio de ganga! Dime, ¿cuánto dinero estás dispuesto a pagar?",  
-    "便宜的自行车": "我可以帮你找到一匹廉价的战马！告诉我，你愿意支付多少银两？",  
-    "安いバイク": "お買い得な戦馬を探してあげますよ！いくらの銀貨を払うつもりですか？",  
-
-
-
-     "đăng ký xe": "Cậu muốn đăng ký một chiến mã mới hay sang tên một con ngựa sắt cũ? Hãy để ta dẫn đường!",
-    "vehicle registration": "Do you want to register a new steed or transfer the ownership of an old iron horse? Let me show you the way!",
-    "immatriculation du véhicule": "Vous voulez enregistrer une nouvelle monture ou transférer la propriété d'un vieux destrier de fer ? Laissez-moi vous montrer le chemin !",  
-    "registro de vehículo": "¿Quieres registrar un nuevo corcel o transferir la propiedad de un viejo caballo de hierro? ¡Déjame mostrarte el camino!",  
-    "车辆登记": "你想注册一匹新战马，还是转让一匹旧铁骑的所有权？让我来为你指路！",  
-    "車両登録": "新しい愛馬を登録しますか？それとも古い鉄馬の所有権を譲渡しますか？道を案内しますよ！",  
+    "giữ xe lâu ngày|bảo quản xe lâu ngày|cất xe lâu ngày|để xe lâu không đi|để xe lâu có hỏng không|đỗ xe lâu ngày|xe để lâu ngày có sao không|bảo dưỡng xe sau thời gian dài|chăm sóc xe ít sử dụng|xe để lâu không nổ máy|cách bảo quản xe|giữ xe không bị hỏng|kiểm tra xe sau thời gian dài|đậu xe lâu ngày|xe không sử dụng lâu ngày": "Chiến mã ngủ quên quá lâu có thể yếu đi! Trước khi lên đường, hãy kiểm tra bình ắc quy và thay nhớt để đảm bảo sức mạnh tối ưu!",
+    "long-term vehicle storage|storing a vehicle for a long time|car storage tips|how to store a car long-term|keeping a car unused for long|parking a car for months|effects of not driving a car|car maintenance after long storage|leaving a car unused|long-term car care|battery check after long storage|oil change after long-term storage|car protection during storage|how to store a motorcycle long-term|preventing car damage during storage": "A warhorse that sleeps too long may grow weak! Before setting off, check the battery and change the oil to ensure optimal strength!",
+    "stockage prolongé du véhicule|comment stocker une voiture longtemps|conserver une voiture sans rouler|laisser une voiture longtemps à l'arrêt|entretien après stockage|protection voiture stationnée|préparer une voiture pour l'hivernage|véhicule immobilisé|voiture non utilisée|batterie voiture après stockage|changer huile après stockage|prévention des pannes après stockage|garer une voiture pour longtemps|comment éviter les dégâts sur une voiture stockée|entretien moto stockage longue durée": "Un destrier qui dort trop longtemps peut s'affaiblir ! Avant de partir, vérifiez la batterie et changez l'huile pour garantir une puissance optimale !",
+    "almacenamiento prolongado del vehículo|cómo almacenar un coche mucho tiempo|mantener un coche sin usar|guardar un coche sin moverlo|protección de vehículo almacenado|mantenimiento después de mucho tiempo|efectos de no conducir un coche|cuidado del coche sin uso|verificar la batería después del almacenamiento|cambiar el aceite después del almacenamiento|evitar daños en el coche almacenado|guardar una moto mucho tiempo|cómo evitar problemas en coches almacenados|consejos para almacenamiento de vehículos|precauciones para guardar un coche": "¡Un corcel que duerme demasiado tiempo puede debilitarse! Antes de partir, revisa la batería y cambia el aceite para asegurar su máxima potencia.",
+    "长期停放车辆|长时间不驾驶汽车|如何长期存放汽车|车辆长期停放注意事项|汽车长期不用怎么办|汽车长期存放技巧|停放汽车对电池的影响|长期存放汽车需要换机油吗|存放车辆后如何保养|长时间不动的汽车如何维护|避免长期停放损坏汽车|长期停车如何防止电池亏电|如何正确存放摩托车|存放汽车时需要做什么|汽车长期不启动的影响": "沉睡太久的战马可能会变得虚弱！出发前，检查电池并更换机油，以确保最佳状态！",
+    "長期保管の車両|長期間車を使用しない場合|車の長期保存方法|長期駐車の注意点|車を長く乗らないとどうなる|長期駐車のメンテナンス|長期間放置した車のバッテリー|エンジンオイル交換の必要性|車を動かさないと何が起こる|長期保存時のトラブル防止|車の保管方法|長期間使用しないバイクの保管|車の長期保管で気をつけること|保管中の車のトラブル対策|車の長期保管後の点検": "長く眠った戦馬は弱るかもしれない！出発前にバッテリーを確認し、オイルを交換して万全を期そう！",
+    "làm tốt lắm|giỏi lắm|tuyệt vời|đỉnh quá|quá xuất sắc|ngon lành|khéo thật|chuẩn bài|siêu đỉnh|không thể chê|quá hay|trùm luôn|đẳng cấp|quá tốt|hết xảy": "Haha, nếu cậu khen thêm nữa mũi ta sẽ nổ tung mất!",
+    "well done|great job|excellent|amazing|awesome|fantastic|impressive|brilliant|outstanding|superb|perfect|flawless|spectacular|phenomenal|top-notch": "Haha, if you praise me any more, my nose will explode!",
+    "bien joué|bravo|excellent|incroyable|génial|formidable|superbe|fantastique|remarquable|impressionnant|splendide|parfait|phénoménal|de haut niveau|extraordinaire": "Haha, si tu me félicites encore, mon nez va exploser !",
+    "buen trabajo|bien hecho|excelente|asombroso|impresionante|increíble|fantástico|maravilloso|perfecto|genial|espectacular|sorprendente|magnífico|de primera|extraordinario": "¡Jaja, si me elogias más, mi nariz explotará!",
+    "干得好|棒极了|太棒了|太厉害了|了不起|优秀|完美|无可挑剔|惊人|非凡|令人惊叹|超级棒|极致|超群|顶级": "哈哈，如果你再夸我，我的鼻子就要炸了！",
+    "よくやった|すごい|素晴らしい|最高|完璧|天才|驚くべき|超すごい|信じられない|絶妙|無敵|超一流|非の打ち所がない|ゴッドレベル|圧巻": "ハハ、これ以上褒められたら鼻が爆発しちゃうよ！",
     
-   
 
-    "bảo hiểm xe": "Nghe đây, lữ khách! Bảo hiểm chiến mã có giá khoảng 66.000 VND/năm. Cậu có muốn chọn một tấm khiên bảo vệ nào cho con ngựa sắt của mình?",
-    "vehicle insurance": "Listen here, traveler! Warhorse insurance costs around 66,000 VND per year. Do you want to choose a protective shield for your iron steed?",
-    "assurance véhicule": "Écoute bien, voyageur ! L'assurance de votre destrier coûte environ 66 000 VND par an. Voulez-vous choisir un bouclier protecteur pour votre monture de fer ?",
-    "seguro de vehículo": "¡Escucha, viajero! El seguro del corcel cuesta alrededor de 66.000 VND al año. ¿Quieres elegir un escudo protector para tu caballo de hierro?",
-    "车辆保险": "听好了，旅人！战马保险每年大约 66,000 越南盾。你想为你的铁骑选一面保护之盾吗？",
-    "車両保険": "聞いてくれ、旅人よ!戦馬の保険は年間約66,000VNDだ。鉄馬に守りの盾を選ぶかい?",
+
+    "trời đẹp|thời tiết đẹp|hôm nay trời đẹp|nắng đẹp|trời quang|trời xanh|nắng nhẹ|gió mát|thời tiết dễ chịu|hôm nay đẹp trời|trời trong xanh|mát mẻ|không mưa|nắng ấm|thời tiết tuyệt vời": "Những ngày nắng đẹp rất thích hợp cho việc ngao du!",
+    "nice weather|beautiful weather|lovely day|sunny day|clear sky|bright day|pleasant weather|good weather|perfect weather|warm and sunny|mild weather|no rain|calm weather|clear and sunny|fresh air": "Sunny days are perfect for wandering!",
+    "beau temps|temps magnifique|journée ensoleillée|temps clair|ciel bleu|soleil radieux|temps doux|météo agréable|temps parfait|soleil doux|pas de pluie|vent léger|ciel dégagé|jour splendide|climat idéal": "Les journées ensoleillées sont parfaites pour l'aventure !",
+    "buen clima|clima agradable|día soleado|buen tiempo|cielo azul|día hermoso|día claro|día brillante|temperatura perfecta|sin lluvia|día templado|brisa fresca|día despejado|clima espectacular|sol radiante": "¡Los días soleados son perfectos para pasear!",
+    "好天气|天气很好|今天天气好|阳光明媚|晴天|天空晴朗|天气宜人|气候温和|没有下雨|微风习习|气候很好|风和日丽|气温适中|空气清新|天气正好": "晴朗的日子最适合出游了！",
+    "良い天気|天気がいい|晴れた日|青空|爽やかな天気|穏やかな日|気持ちいい天気|快適な気温|日差しが心地よい|風が気持ちいい|晴天|暖かい日|雨がない|最高の天気|ピクニック日和": "晴れた日は冒険にぴったりだね！",
+    
+
+
+    "thầy coi|coi thầy|thầy đánh giá|đánh giá thầy|thầy kiểm tra|thầy nhận xét|xem thầy|coi chatbot|đánh giá chatbot|thầy xem xét|thầy phân tích|thầy chấm điểm|thầy review|xem xét chatbot|thầy góp ý": "Ôi trời! Quả là vinh hạnh cho ta! Ta đã luôn muốn gặp ông ấy đấy!",
+    "master seer|seer master|seer evaluation|seer review|seer judgment|seer assessment|seer feedback|seer analysis|seer inspection|seer check|seer advice|seer scoring|seer opinion|seer critique|seer consulting": "Oh my! What an honor for me! I have always wanted to meet him!",
+    "maître voyant|voyant maître|voyant évaluation|voyant jugement|voyant avis|voyant analyse|voyant inspection|voyant conseil|voyant opinion|voyant critique|voyant observation|voyant expertise|voyant notation|voyant supervision|voyant appréciation": "Oh là là ! Quel honneur pour moi ! J'ai toujours voulu le rencontrer !",
+    "maestro vidente|vidente maestro|vidente evaluación|vidente crítica|vidente juicio|vidente valoración|vidente revisión|vidente consejo|vidente análisis|vidente puntuación|vidente asesoramiento|vidente inspección|vidente opinión|vidente comentario|vidente apreciación": "¡Oh cielos! ¡Qué honor para mí! ¡Siempre he querido conocerlo!",
+    "大师占卜师|占卜大师|大师评价|大师判断|大师分析|大师意见|大师评论|大师批评|大师监督|大师观察|大师评分|大师检查|大师审查|大师建议|大师反馈": "天啊！对我来说真是莫大的荣幸！我一直想见到他！",
+    "先生占い師|占い師先生|占い師評価|占い師レビュー|占い師チェック|占い師アドバイス|占い師意見|占い師批評|占い師分析|占い師診断|占い師フィードバック|占い師意見交換|占い師監査|占い師感想|占い師の見解": "おおっと！これは光栄だ！ずっとお会いしたかったんだ！",
 
     
+
+    "cố gắng|nỗ lực|hết mình|quyết tâm|dốc sức|kiên trì|bền bỉ|không bỏ cuộc|chăm chỉ|cật lực|ráng sức|gắng sức|dồn sức|không từ bỏ|phấn đấu": "Haha! Cố gắng là tên đệm của ta đấy, bạn ta ơi!",
+    "try hard|effort|give it all|determination|perseverance|push forward|never give up|work hard|strive|keep going|dedication|stay strong|keep pushing|commitment|fight on": "Haha! Trying hard is my middle name, my friend!",
+    "effort|persévérance|détermination|travail acharné|ne jamais abandonner|se donner à fond|persister|se battre|engagement|continuer|ne pas lâcher|faire de son mieux|courage|volonté|réussir": "Haha ! L'effort est mon deuxième prénom, mon ami !",
+    "esfuerzo|perseverancia|determinación|trabajo duro|nunca rendirse|darlo todo|seguir adelante|compromiso|luchar|insistir|hacer el máximo|no darse por vencido|valentía|constancia|superación": "¡Jaja! ¡El esfuerzo es mi segundo nombre, amigo mío!",
+    "努力|坚持|决心|奋斗|不放弃|拼搏|刻苦|全力以赴|执着|不屈不挠|努力工作|追求|不断进步|顽强|坚持不懈": "哈哈！努力可是我的中间名啊，我的朋友！",
+    "努力する|頑張る|決心|挑戦|全力を尽くす|あきらめない|続ける|闘志|進み続ける|努力家|成功を目指す|限界を超える|コツコツ|信念|一生懸命": "ハハ！努力は俺のミドルネームだぜ、友よ！",
     
-    "bảo dưỡng xe": "Giữ cho chiến mã luôn ở trạng thái tốt nhất là nhiệm vụ của mọi kỵ sĩ! Cậu muốn kiểm tra phần nào trước?",
-    "vehicle maintenance": "Keeping your warhorse in top condition is every rider is duty! Which part would you like to check first?",  
-    "entretien du véhicule": "Maintenir votre destrier en parfait état est le devoir de tout cavalier ! Quelle partie voulez-vous vérifier en premier ?",  
-    "mantenimiento del vehículo": "¡Mantener tu corcel en óptimas condiciones es el deber de todo jinete! ¿Qué parte quieres revisar primero?",  
-    "车辆保养": "让战马保持最佳状态是每位骑士的责任！你想先检查哪个部分？",  
-    "車両整備": "戦馬を最高の状態に保つのはすべての騎士の務め！どの部分を先に点検しますか？",  
+    
+    
+    "phân vân|lưỡng lự|chần chừ|đắn đo|cân nhắc|không chắc chắn|do dự|bối rối|không quyết định được|hoang mang|rối bời|đang suy nghĩ|đang đắn đo|đắn đo mãi|ngần ngại": "Cứ bình tĩnh, ta không chạy đâu mà sợ! Cậu cứ từ từ suy nghĩ đi!",
+    "hesitant|undecided|uncertain|doubtful|wavering|unsure|indecisive|second thoughts|torn between|confused|can't decide|thinking hard|unsure what to do|pondering|hesitating": "Stay calm, I'm not going anywhere! Take your time to think!",
+    "hésitant|indécis|incertain|douteux|hésitation|perplexe|ne sait pas quoi faire|en plein dilemme|réfléchit encore|se pose des questions|pas sûr|en réflexion|tourmenté|trouble|hésite": "Reste calme, je ne vais pas disparaître ! Prends ton temps pour réfléchir !",
+    "dudoso|indeciso|inseguro|pensándolo|confundido|no está seguro|duda|no puede decidir|en un dilema|vacilando|meditándolo|no sabe qué hacer|pensando mucho|en duda|reconsiderando": "¡Tranquilo, no voy a ninguna parte! ¡Tómate tu tiempo para pensar!",
+    "犹豫|不确定|拿不定主意|困惑|摇摆不定|不知所措|犹疑|思考中|进退两难|纠结|无法决定|反复思考|正在犹豫|无法抉择|举棋不定": "冷静点，我又不会跑！慢慢想吧！",
+    "迷っている|悩んでいる|決められない|困っている|どうしよう|考え中|迷いがある|戸惑っている|優柔不断|まだ決めていない|不確か|判断できない|悩み中|決断できない|考え込んでいる": "落ち着いて、俺は逃げないから！ゆっくり考えていいよ！",
+    
+    
+
+    "đùa|giỡn|nói giỡn|trêu|chọc|nói đùa|trêu đùa|trò đùa|bông đùa|giễu cợt|trêu ghẹo|chọc ghẹo|nói vui|nói cho vui|hài hước|trò cười": "Thế giới này rộng lớn lắm… nhưng không có một con chiến mã thì đi đâu cũng thấy gần!",
+    "joke|kidding|just kidding|funny|humor|prank|jest|teasing|playing around|making fun|lighthearted|laughing|not serious|just joking|fooling around": "The world is vast... but without a trusty steed, everywhere feels close!",
+    "blague|plaisanterie|farce|humour|rigolade|taquinerie|je rigole|blaguer|dérision|sarcasme|faire une blague|chambrer|boutade|moquerie|faire le clown": "Le monde est vaste… mais sans une monture fidèle, tout semble proche !",
+    "broma|chiste|juego|bromear|tomar el pelo|divertido|gracioso|mofa|sátira|cachondeo|bromista|sarcasmo|reírse de|hacer una broma|jugar una broma": "El mundo es enorme... pero sin un corcel fiel, todo parece estar cerca!",
+    "玩笑|开玩笑|笑话|恶作剧|调侃|逗趣|讽刺|搞笑|幽默|嘲弄|开个玩笑|捉弄|讽刺性|说着玩的|玩闹": "世界如此广阔……但没有一匹可靠的战马，去哪儿都觉得近！",
+    "冗談|ジョーク|いたずら|ふざける|おちゃらけ|冷やかし|悪ふざけ|面白い話|ギャグ|皮肉|軽い冗談|からかい|茶化す|気軽な冗談|ユーモア": "世界は広い… でも頼れる愛馬がいなければ、どこへ行っても近く感じるよ！",
+
+    
+
+    "thương lượng|giảm giá|bớt giá|trả giá|mặc cả|thỏa thuận giá|deal|hạ giá|có bớt không|đàm phán|xin giảm giá|hỗ trợ giá|ưu đãi|chiết khấu|khuyến mãi": "Giá cả có thể thương lượng! Nhưng ta cam đoan mỗi con chiến mã đều xứng đáng với giá trị của nó!",
+    "negotiation|discount|bargain|haggle|price reduction|deal|lower price|talk price|cut price|price adjustment|special offer|rebate|markdown|promotion|price negotiation": "Prices are negotiable! But I assure you, every steed is worth its value!",
+    "négociation|réduction|marchander|rabais|prix réduit|offre spéciale|réduction de prix|faire un deal|baisser le prix|remise|promotion|prix négociable|transaction|deal|hésiter sur le prix": "Les prix sont négociables ! Mais je t'assure, chaque monture vaut son prix !",
+    "negociación|descuento|rebaja|regateo|trato|precio reducido|oferta especial|bajar precio|reembolso|reducción de precio|negociar precio|descuento especial|ajuste de precio|promoción|transacción": "¡Los precios son negociables! Pero te aseguro que cada corcel vale su precio.",
+    "谈判|折扣|议价|砍价|优惠|促销|减价|特价|降价|降价优惠|商量价格|优惠券|特惠|价格调整|折扣价": "价格可以商量！但我保证，每匹战马都物有所值！",
+    "交渉|割引|値引き|値下げ|特価|セール|ディスカウント|価格交渉|バーゲン|プロモーション|割引交渉|クーポン|お得な価格|価格調整|値段交渉": "値段は交渉可能だ！だが保証しよう、どの愛馬も値段相応の価値がある！",
 
 
 
-    "thay nhớt": "Nhớt chính là dòng huyết mạch của chiến mã! Thay định kỳ sẽ giúp nó bền bỉ hơn. Cậu đang dùng loại nào?",
-    "oil change": "Oil is the lifeblood of your warhorse! Regular changes will keep it running strong. Which type are you using?",  
-    "changement d'huile": "L'huile est le sang de votre destrier ! Un changement régulier lui assurera une meilleure longévité. Quel type utilisez-vous ?",  
-    "cambio de aceite": "¡El aceite es la sangre de tu corcel! Cambiarlo regularmente lo mantendrá en buen estado. ¿Qué tipo estás usando?",  
-    "更换机油": "机油就是战马的血液！定期更换能让它更持久耐用。你在使用哪种机油？",  
-    "オイル交換": "オイルは戦馬の血液だ！定期的に交換すれば長持ちするぞ。どの種類を使っている？",  
+    "ngân sách|giá tiền|chi phí|mức giá|giá cả|tài chính|kinh phí|hạn mức|giới hạn tiền|giá xe|mua xe bao nhiêu|có bao nhiêu tiền|tầm giá|khoảng giá|chi bao nhiêu": "Dưới 20 triệu? Một con ngựa sắt đáng tin cậy. 50 triệu? Một chiến mã tốc độ! Trên 100 triệu? Một huyền thoại trên đường đua!",
+    "budget|cost|price range|financial plan|expense|spending limit|funds|affordable|money range|how much to spend|price limit|car price|motorbike price|budgeting|financial limit": "Under 20 million? A reliable iron steed. 50 million? A speed demon! Over 100 million? A legend on the track!",
+    "budget|prix|coût|gamme de prix|limite de dépenses|finances|montant|combien dépenser|prix moto|prix voiture|limite budgétaire|coût estimé|fourchette de prix|plafond financier|tarif": "Moins de 20 millions ? Un destrier de fer fiable. 50 millions ? Une monture rapide ! Plus de 100 millions ? Une légende des courses !",
+    "presupuesto|costo|precio|gasto|límite de dinero|fondos|precio de la moto|cuánto gastar|rango de precios|tarifa|presupuesto de compra|precio estimado|coste financiero|línea de gasto|cuánto cuesta": "¿Menos de 20 millones? Un corcel de hierro confiable. ¿50 millones? ¡Un pura sangre veloz! ¿Más de 100 millones? ¡Una leyenda en la pista!",
+    "预算|价格|花费|消费|价钱|资金|经济能力|买车多少钱|购车预算|限额|费用|金额|财务规划|开销|可负担": "2000万以下 ? 一匹可靠的铁马。5000万 ? 一匹极速战马 ! 1亿以上 ? 赛道上的传奇 !",
+    "予算|コスト|価格|費用|支出|資金|限度額|車の価格|バイクの価格|金額|支払い可能額|値段の範囲|購入費|財務制限|予算計画": "2000万以下 ? 頼れる鉄の馬。5000万 ? 疾風の駿馬 ! 1億以上 ? レース界の伝説だ",
 
 
 
-    "phanh xe": "Phanh - Lá chắn cuối cùng giữa lữ khách và hiểm nguy! Cậu muốn sửa chữa hay thay mới lá chắn này?",
-    "brakes": "Brakes—the final shield between the traveler and danger! Do you want to repair or replace this shield?",  
-    "freins": "Les freins, le dernier bouclier entre le voyageur et le danger ! Voulez-vous les réparer ou les remplacer ?",  
-    "frenos": "¡Los frenos, el último escudo entre el viajero y el peligro! ¿Quieres repararlos o reemplazarlos?",  
-    "刹车": "刹车是旅人和危险之间的最后屏障！你想修理还是更换这道屏障？",  
-    "ブレーキ": "ブレーキは旅人と危険の間にある最後の盾！修理するか、新しく交換するか？",  
+    "tạm biệt|bye|chào tạm biệt|hẹn gặp lại|tạm biệt nhé|bái bai|gặp lại sau|chúc đi đường bình an|chia tay|tạm xa|rời đi|đi nhé|tạm biệt bạn|gặp lại sau nhé|tạm biệt mọi người": "Ôi! Đã đến lúc phải giã từ rồi sao... Cậu có thể rời đi, nhưng những cung đường luôn chờ đón cậu quay lại!",
+    "goodbye|bye|see you|farewell|see you later|take care|until next time|bye for now|parting ways|leaving|signing off|see you again|goodbye my friend|safe travels|catch you later": "Oh! Is it time to part ways already... You may leave, but the roads will always welcome you back!",
+    "au revoir|bye|à bientôt|adieu|à plus tard|bonne route|au plaisir|à la prochaine|prends soin de toi|on se revoit|ciao|à la revoyure|je pars|je m'en vais|bonne continuation": "Oh ! Déjà l'heure de se quitter... Tu peux partir, mais les routes t'attendront toujours !",
+    "adiós|bye|hasta luego|hasta pronto|nos vemos|cuídate|hasta la próxima|que te vaya bien|despedida|me voy|chau|nos vemos luego|hasta siempre|buena suerte|hasta la vista": "¡Oh! ¿Ya es hora de despedirse...? Puedes irte, pero los caminos siempre te recibirán de nuevo.",
+    "再见|bye|拜拜|下次见|一路平安|再会|告别|保重|后会有期|暂别|走了|回头见|下次再见|离别|祝好运": "哦！已经到了告别的时候了吗……你可以离开，但道路永远等待着你的归来！",
+    "さようなら|bye|またね|じゃあね|また会おう|お元気で|バイバイ|行ってきます|じゃ、また|お別れ|いってらっしゃい|道中気をつけて|また会える日まで|さよなら友よ|さらば": "おお！もうお別れの時間か… 君は去ることができるが、道はいつでも君を待っている！",
+    
 
 
-
-    "đèn xe": "Đèn xe là đôi mắt trong đêm xua tan bóng tối! Liệu cậu cần thay mới chăng? ",
-    "headlights": "Headlights are the eyes that pierce the darkness of the night! Do you need a replacement?",  
-    "phares": "Les phares sont les yeux qui transpercent l'obscurité de la nuit ! Avez-vous besoin de les remplacer ?",  
-    "faros": "¡Los faros son los ojos que disipan la oscuridad de la noche! ¿Necesitas un reemplazo?",  
-    "车灯": "车灯是黑夜中驱散黑暗的眼睛！你需要更换吗？",  
-    "ヘッドライト": "ヘッドライトは闇を切り裂く夜の目！交換が必要ですか？",  
-
-
-
-    "lốp xe": "Đôi chân vững chắc của mọi chiến mã! Chọn đúng loại sẽ giúp kị sĩ chinh phục mọi cung đường, từ phố thị êm ả đến địa hình gồ ghề đầy thử thách!",
-    "tires": "The sturdy legs of every warhorse! Choosing the right type will help the rider conquer any road, from smooth city streets to rugged terrains!",  
-    "pneus": "Les jambes solides de chaque destrier ! Choisir le bon type aidera le cavalier à conquérir toutes les routes, des rues paisibles aux terrains accidentés et difficiles !",  
-    "neumáticos": "¡Las piernas fuertes de todo corcel! Elegir el tipo correcto ayudará al jinete a conquistar cualquier camino, desde las calles tranquilas de la ciudad hasta terrenos difíciles y accidentados.",  
-    "轮胎": "每匹战马都需要强健的双腿！选择合适的类型可以帮助骑士征服任何道路，从平坦的城市街道到崎岖的挑战地形！",  
-    "タイヤ": "すべての戦馬の頼れる足！適切な種類を選べば、都会の穏やかな道から険しい冒険の地まで制覇できるぞ！"
-
-
-
-
-
-
-
-
+    "cặc, cc, con cac, lồn, cl, lon, lz, lone, cốn lài, bốn lù, đụ, đụ má, đĩ, chó, ngu, địt, phò, đéo, nứng, điếm, sủa, cứt, dâm, bú, liếm, tình dục, tùng dịch, tinh trùng, dâm thủy, âm hộ, âm đạo, dương vật, hạt le, dái, bìu, khấc, mu, buồi, thẩm du": "Lời nói chẳng mất tiền mua, lựa lời mà nói cho vừa lòng nhau...",
+    "fuck, pussy, vagina, anal, sex, porn, asshole, dumb, bitch, suck, dick, cum, lick, ass, slurp, cunt, clit, shit, cock, penis, slut, whore, semen, sperm, pubic, dildo, rape, doggy, handjob, footjob, rimjob, deepthoat, masturbate": "Your mom gonna know about this my dear",
+    "baise, chatte, vagin, anal, sexe, porno, trou du cul, idiote, salope, sucer, bite, sperme, lécher, cul, slurp, chatte, clitoris, merde, bite, pénis, salope, pute, sperme, sperme, pubien, gode, viol, levrette, branlette, footjob, rimjob, gorge profonde, masturbation" : "Ta mère va le savoir, ma chère.",
+    "joder, coño, vagina, anal, sexo, porno, gilipollas, tonta, zorra, chupar, polla, correrse, lamer, culo, sorber, coño, clítoris, mierda, polla, pene, zorra, puta, semen, esperma, pubis, consolador, violación, perrito, paja, paja con los pies, beso negro, garganta profunda, masturbación": "Tu mamá se va a enterar de esto, querida",
+    "操逼、小穴、阴道、肛交、性爱、色情、混蛋、愚蠢、婊子、吮吸、鸡巴、射精、舔、屁股、啜饮、阴户、阴蒂、屎、鸡巴、荡妇、妓女、精液、精子、阴毛、假阳具、强奸、后入、手淫、足交、舔肛、深喉、自慰":"亲爱的，你妈妈会知道这件事的",
+    "ファック、マンコ、ヴァギナ、アナル、セックス、ポルノ、尻穴、バカ、ビッチ、しゃぶる、ちんこ、精液、舐める、尻、すする、女、クリトリス、糞、チンコ、ペニス、痴女、売春婦、精液、精子、陰毛、ディルド、レイプ、後背位、手コキ、足コキ、アナル舐め、ディープスロート、自慰": "あなたのお母さんはこれを知ることになるでしょう、私の愛しい人"
 
 
 }
