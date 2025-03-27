@@ -148,3 +148,5 @@ if st.session_state.show_form:
                 new_data.to_csv(csv_filename, mode='w', header=True, index=False)
         except Exception as e:
             st.error(f"Errors: {e}")
+
+        st.session_state.show_form = False
