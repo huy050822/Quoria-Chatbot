@@ -1,13 +1,25 @@
 import streamlit as st
-import time
+import pandas as pd
+import numpy as np
 import json
+import os
 import re
-#streamlit run streamlit2.py
+import time
+import joblib
+from googletrans import Translator  
 
+#streamlit run file.py để chạy
 
-st.set_page_config(page_title="QUORIA 0.4.0", page_icon="https://github.com/huy050822/Quoria-Chatbot/blob/main/11zon_cropped.png?raw=true", layout="centered", initial_sidebar_state="collapsed")
-
-st.markdown(  
+translator = Translator()
+load_model = joblib.load("linear regression.pkl")
+st.set_page_config(
+    page_title="QUORIA 0.4.0",
+    page_icon="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/11zon_cropped.png",
+    layout="centered",
+    initial_sidebar_state="collapsed" 
+)
+language = st.sidebar.selectbox("Select Language", options=["vi", "en", "fr", "es", "zh-cn", "ja"], index=0)
+st.markdown(
     """
     <style>
     body {
@@ -36,162 +48,105 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<div class='chat-box' id='chat-box'>Hi, How can I help you ?</div>", unsafe_allow_html=True)
-
-prompt = st.chat_input("Please type a message...")
-
-
-with open("responses.json", "r", encoding="utf-8") as f:
-    responses = json.load(f)
-
-
-
-
-if "messages" not in st.session_state: 
+st.markdown("<div class='chat-box' id='chat-box'>Hi, How can I help you?</div>", unsafe_allow_html=True)
+if os.path.exists("responses.json"):
+    with open("responses.json", "r", encoding="utf-8") as f:
+        responses = json.load(f)
+else:
+    responses = {}
+if "messages" not in st.session_state:
     st.session_state.messages = []
-
-for msg in st.session_state["messages"]:
-    role = "User" if msg["role"] == "user" else "Assistant"
-    st.markdown(f"**{role}:** {msg["content"]}")
-
-
-
+if "show_form" not in st.session_state:
+    st.session_state.show_form = False
 def get_response(user_input):
+    text = user_input.strip().lower()
     for pattern, response in responses.items():
-        if re.fullmatch(pattern, user_input, re.IGNORECASE):
+        if re.fullmatch(pattern, text, re.IGNORECASE):
             return response
     return "Nói lại đi đừng ngại, tui chả hiểu bạn đang nói gì cả"
-
-
+def translate_text(text, dest_language):
+    if dest_language != "vi":
+        try:
+            return translator.translate(text, dest=dest_language).text
+        except Exception as e:
+            st.error(f"Translation error: {e}")
+            return text
+    return text
+for msg in st.session_state.messages:
+    role = "User" if msg["role"] == "user" else "Assistant"
+    st.markdown(f"**{role}:** {msg['content']}")
+prompt = st.chat_input("Please type a message...")
 if prompt:
-    st.session_state.messages.append(
-        {
-        "role": "user", 
-        "content": prompt
-        }
-    )
-    
-    with st.chat_message("user", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png?token=GHSAT0AAAAAAC7ONYRTEML2AXVJ4RLV72ZQZ6YAPLA"):
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png"):
         st.markdown(prompt)
+    if language == "vi":
+        if "giá xe cũ" in prompt.lower():
+            st.session_state.show_form = True
+    else:
+        translated_prompt = translator.translate(prompt, dest="vi").text.lower()
+        if "giá xe máy cũ" in translated_prompt:
+            st.session_state.show_form = True
+    if not st.session_state.show_form:
+        bot_response = get_response(prompt)
+        bot_response = translate_text(bot_response, language)
+        with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/11zon_cropped%20(2).png"):
+            holder = st.empty()
+            partial_text = ""
+            for word in bot_response.split():
+                partial_text += word + " "
+                time.sleep(0.05)
+                holder.markdown(partial_text + "⚪️")
+            holder.markdown(partial_text)
+        st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
-    responses = get_response(prompt)
+
+if st.session_state.show_form:
+    form_subtitle = "Vui lòng điền thông tin xe để tôi giúp định giá:" if language == "vi" else "Please fill in the bike details to help me estimate the price:"
+    submit_label = "Submit thông tin" if language == "vi" else "Submit"
     
-    with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/chatbot.png?token=GHSAT0AAAAAAC7ONYRSSZ26NBKAKWVRMZ5IZ6YAPIA"):
-        if prompt.lower() in ["giá xe máy cũ", "giá xe cũ", "gia xe may cu",  "giã xe may cụ", "da xe may cu","giaxemaycu","cho tôi giá xe máy cũ"]:
-            with st.form("BIKE DETAIL FORM"):
-                st.write("Vui lòng điền thông tin xe để tôi giúp bạn định giá:")
-                car_name = st.text_input("Tên xe (VD: Yamaha):")
-                year = st.number_input("Năm sản xuất:", min_value=1900, max_value=2025, step=1)
-                mileage = st.number_input("Số km đã đi:", min_value=0, step=1000)
-                brand = st.text_input("Hãng xe (VD: Honda, Yamaha):")
-                submitted = st.form_submit_button("Gửi thông tin")
-
-            if submitted:
-                if car_name and year and mileage >= 0 and brand:
-                    response = f"Tôi đã nhận thông tin xe của bạn: {car_name}, {brand}, năm sản xuất {year}, đã đi {mileage} km. Giá ước tính có thể dao động từ 500 triệu đến 600 triệu VND."
-                else:
-                    response = "Vui lòng điền đầy đủ thông tin để tôi có thể giúp bạn!"
-
-        elif prompt.lower() in ["price of old bike", "old bike's price","old bike price" ]:
-            with st.form("BIKE DETAIL FORM"):
-                st.write("Please fill in the bike details to help me estimate the price:")
-                bike_name = st.text_input("Bike name (e.g. Yamaha):")
-                year = st.number_input("Year of manufacture:", min_value=1900, max_value=2025, step=1)
-                mileage = st.number_input("Mileage:", min_value=0, step=1000)
-                brand = st.text_input("Brand (e.g. Honda, Yamaha):")
-                submitted = st.form_submit_button("Submit")
-
-            if submitted:
-                if bike_name and year and mileage >= 0 and brand:
-                    response = f"I have received the bike details: {bike_name}, {brand}, year {year}, mileage {mileage} km. The estimated price could range from 200,000 to 300,000 VND."
-                else:
-                    response = "Please fill in all the details so I can help you!"
-
-        elif prompt.lower() == "precio de motocicleta usada":
-            with st.form("BIKE DETAIL FORM"):
-                st.write("Por favor, complete los detalles de la motocicleta para ayudarme a estimar el precio:")
-                bike_name = st.text_input("Nombre de la moto (ej. Yamaha):")
-                year = st.number_input("Año de fabricación:", min_value=1900, max_value=2025, step=1)
-                mileage = st.number_input("Kilometraje:", min_value=0, step=1000)
-                brand = st.text_input("Marca (ej. Honda, Yamaha):")
-                submitted = st.form_submit_button("Enviar")
-
-            if submitted:
-                if bike_name and year and mileage >= 0 and brand:
-                    response = f"Recibí los detalles de tu moto: {bike_name}, {brand}, año {year}, kilometraje {mileage} km. El precio estimado podría oscilar entre 200,000 y 300,000 VND."
-                else:
-                    response = "¡Por favor, completa todos los detalles para que pueda ayudarte!"
-
-        elif prompt.lower() in ["prix de la moto d'occasion","combien coûte une moto d'occasion"]:
-            with st.form("BIKE DETAIL FORM"):
-                st.write("Veuillez remplir les détails de la moto pour m'aider à estimer le prix :")
-                bike_name = st.text_input("Nom de la moto (ex : Peugeot, Yamaha) :")
-                year = st.number_input("Année de fabrication :", min_value=1900, max_value=2025, step=1)
-                mileage = st.number_input("Kilométrage :", min_value=0, step=1000)
-                brand = st.text_input("Marque (ex : Honda, Yamaha) :")
-                submitted = st.form_submit_button("Envoyer")
-
-            if submitted:
-                if bike_name and year and mileage >= 0 and brand:
-                    response = f"J'ai reçu les détails de votre moto : {bike_name}, {brand}, année {year}, kilométrage {mileage} km. Le prix estimé pourrait varier entre 200,000 et 300,000 VND."
-                else:
-                    response = "Veuillez remplir tous les détails pour que je puisse vous aider !"
-
-        elif prompt.lower() in ["中古バイクの価格", "ちゅうこバイクのかかく", "chūko baiku no kakaku"]:
-            with st.form("BIKE DETAIL FORM"):
-                st.write("バイクの詳細を入力してください。価格を見積もるお手伝いをします:")
-                bike_name = st.text_input("バイク名（例：ヤマハ）:")
-                year = st.number_input("製造年:", min_value=1900, max_value=2025, step=1)
-                mileage = st.number_input("走行距離:", min_value=0, step=1000)
-                brand = st.text_input("メーカー（例：ホンダ、ヤマハ）:")
-                submitted = st.form_submit_button("送信")
-
-            if submitted:
-                if bike_name and year and mileage >= 0 and brand:
-                    response = f"バイクの情報を受け取りました: {bike_name}, {brand}, 製造年 {year}, 走行距離 {mileage} km。推定価格は 200,000 VND から 300,000 VND の範囲です。"
-                else:
-                    response = "すべての詳細を入力してください！"
-
-        elif prompt.lower() in ["二手摩托车价格", "èrshǒu mótuōchē jiàgé", "ershoumotuochejiage"]:
-            with st.form("BIKE DETAIL FORM"):
-                st.write("请填写摩托车详细信息，以帮助我估算价格：")
-                bike_name = st.text_input("摩托车名称（例如：雅马哈）：")
-                year = st.number_input("制造年份：", min_value=1900, max_value=2025, step=1)
-                mileage = st.number_input("行驶里程：", min_value=0, step=1000)
-                brand = st.text_input("品牌（例如：本田，雅马哈）：")
-                submitted = st.form_submit_button("提交")
-
-            if submitted:
-                if bike_name and year and mileage >= 0 and brand:
-                    response = f"我已收到您的摩托车详细信息：{bike_name}, {brand}, 制造年份 {year}, 行驶里程 {mileage} km。估计价格可能在 200,000 VND 到 300,000 VND 之间。"
-                else:
-                    response = "请填写所有详细信息，以便我能帮助您！"
-
-
-       
-
-     
-        holder = st.empty()
-        responses_divide = ""
-
-        for word in responses.split():
-            responses_divide += word + " " 
-            time.sleep(0.1)
-            holder.markdown(responses_divide + "⚪️")
-        holder.markdown(responses_divide)
+    st.subheader(translate_text(form_subtitle, language))
+    with st.form("price_form"):
+        model_input = st.text_input("Dòng xe")
+        brand_input = st.text_input("Hãng")
+        km_input = st.number_input("Số Kilomters đã đi", min_value=0, max_value=999999, value=0)
+        year_input = st.number_input("Năm sản xuất", min_value=1990, max_value=2025, value=2025)
+        min_price_input = st.number_input("Giá Thấp Nhất Mà Bạn Muốn (triệu VNĐ)", value=1, min_value=0, max_value=100)
+        submitted = st.form_submit_button(submit_label)
     
-
-
-    st.session_state.messages.append(
-        {
-        "role": "assistant",
-        "content": responses
-        }
-    )
-
-    
-
-
-    # with st.chat_message("assistant", avatar=r"C:\Users\DELL\Downloads\chatbot.png"):
-    #     st.markdown("Mimic: {}".format(prompt))
-
+    if submitted:
+        new_data = pd.DataFrame({
+            "Model": [model_input],
+            "Brand": [brand_input],
+            "Kilometer Driven": [km_input],
+            "Year of Manufacture": [year_input],
+            "Min_Price": [min_price_input]
+        })
+        try:
+            y_new_pred = load_model.predict(new_data)
+            rounded_preds = np.round(y_new_pred[0], 2)
+            result_msg = f"The result: {rounded_preds:,.2f}"
+            st.success(result_msg)
+        except Exception as e:
+            result_msg = f"Error: {e}"
+            st.error(result_msg)
+        
+        result_msg_translated = translate_text(result_msg, language)
+        with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/11zon_cropped%20(2).png"):
+            holder = st.empty()
+            partial_text = ""
+            for word in result_msg_translated.split():
+                partial_text += word + " "
+                time.sleep(0.13)
+                holder.markdown(partial_text + "⚪️")
+            holder.markdown(partial_text)
+        st.session_state.messages.append({"role": "assistant", "content": result_msg_translated})
+        
+        csv_filename = "input_data.csv"
+        try:
+            if os.path.exists(csv_filename):
+                new_data.to_csv(csv_filename, mode='a', header=False, index=False)
+            else:
+                new_data.to_csv(csv_filename, mode='w', header=True, index=False)
+        except Exception as e:
+            st.error(f"Errors: {e}")
