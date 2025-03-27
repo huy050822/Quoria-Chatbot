@@ -81,6 +81,22 @@ if prompt:
     if language == "vi":
         if "giá xe máy cũ" in prompt.lower():
             st.session_state.show_form = True
+    elif language == "en":
+        if  "price of old bike" in prompt.lower():
+            st.session_state.show_form = True
+    elif language == "ja":
+        if "古いバイクの価格" in prompt.lower():
+            st.session_state.show_form = True
+    elif language == "es":
+        if "precio de la bicicleta vieja" in prompt.lower():
+            st.session_state.show_form = True
+    elif language == "fr":
+        if "prix de la vieille bicyclette" in prompt.lower():
+            st.session_state.show_form = True
+    elif language == "zh-cn":
+        if "二手自行车价格" in prompt.lower():
+            st.session_state.show_form = True
+    
     else:
         translated_prompt = translator.translate(prompt, dest="vi").text.lower()
         if "giá xe máy cũ" in translated_prompt:
