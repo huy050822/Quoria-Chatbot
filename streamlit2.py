@@ -8,8 +8,6 @@ import time
 import joblib
 from googletrans import Translator  
 
-#streamlit run file.py để chạy
-
 translator = Translator()
 load_model = joblib.load("linear regression.pkl")
 st.set_page_config(
@@ -81,7 +79,7 @@ if prompt:
     with st.chat_message("user", avatar="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/avatar.png"):
         st.markdown(prompt)
     if language == "vi":
-        if "giá xe cũ" in prompt.lower():
+        if "giá xe máy cũ" in prompt.lower():
             st.session_state.show_form = True
     else:
         translated_prompt = translator.translate(prompt, dest="vi").text.lower()
@@ -107,11 +105,11 @@ if st.session_state.show_form:
     
     st.subheader(translate_text(form_subtitle, language))
     with st.form("price_form"):
-        model_input = st.text_input("Dòng xe")
-        brand_input = st.text_input("Hãng")
-        km_input = st.number_input("Số Kilomters đã đi", min_value=0, max_value=999999, value=0)
-        year_input = st.number_input("Năm sản xuất", min_value=1990, max_value=2025, value=2025)
-        min_price_input = st.number_input("Giá Thấp Nhất Mà Bạn Muốn (triệu VNĐ)", value=1, min_value=0, max_value=100)
+        model_input = st.text_input("Model")
+        brand_input = st.text_input("Brand")
+        km_input = st.number_input("Kilometers Driven", min_value=0, max_value=999999, value=0)
+        year_input = st.number_input("Year of Manufacture", min_value=1990, max_value=2025, value=2025)
+        min_price_input = st.number_input("Minimum Price(million VNĐ)", value=1, min_value=0, max_value=100)
         submitted = st.form_submit_button(submit_label)
     
     if submitted:
